@@ -1,0 +1,169 @@
+.fc-unthemed{
+  border:none;
+
+  .fc-toolbar{
+
+    .fc-left{
+      .fc-state-default{
+        border: none;
+        background-color: transparent;
+        background-image: none;
+        color: $dark-blue;
+        text-script: none;
+        box-shadow: none;
+
+        &:hover{
+          color: $main-hover-color;
+        }
+
+        &:focus{
+          outline:0;
+        }
+
+        .fc-icon{
+          font-family: FontAwesome;
+
+          &.fc-icon-left-single-arrow:after{
+            content:  "\f053";
+            font-size: 11px;
+          }
+
+          &.fc-icon-right-single-arrow:after{
+            content:  "\f054";
+            font-size: 11px;
+          }
+        }
+      }
+    }
+
+    .fc-right{
+
+      .fc-state-default{
+        border: none;
+        background-color: transparent;
+        background-image: none;
+        color: $dark-blue;
+        text-script: none;
+        box-shadow: none;
+
+        &:hover{
+          color: $main-hover-color;
+        }
+
+        &:focus{
+          outline:0;
+        }
+
+        .fc-icon{
+          font-family: FontAwesome;
+        }
+      }
+    }
+
+    .fc-center{
+
+    }
+
+    .fc-clear{
+
+    }
+  }
+
+  .fc-view-container{
+
+    .fc-view{
+
+      table{
+
+        .fc-head{
+          background: $dark-blue;
+          color: $white;
+
+          tr{
+
+            .fc-head-container{
+              border-style: none;
+
+              .fc-row{
+
+                table{
+
+                  thead{
+
+                    tr{
+
+                      .fc-day-header{
+                        padding: 5px 0;
+                        font-size: 14px;
+                        border-style: none;
+
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .fc-body{
+          background: $white;
+
+          tr{
+
+            .fc-widget-content{
+              border-style: none;
+
+              .fc-day-grid-container{
+
+                .fc-day-grid{
+
+                  .fc-week{
+
+                    .fc-bg{
+
+                      .fc-day{
+                        border: 2px solid $gray;
+
+                        &.fc-other-month{
+                          background: $light-gray;
+                        }
+
+                        &.fc-today{
+                          //background: #D4DFEA;
+                          background: $highlight-color;
+                        }
+                      }
+                    }
+
+                    .fc-content-skeleton{
+
+                      .fc-day-number{
+                        text-align: left;
+                        padding-left: 15px;
+                        padding-top: 5px;
+                      }
+
+                      .fc-event-container{
+
+                        .fc-event{
+                          border: 1px solid $navy;
+                          background-color: $navy;
+
+                          .fc-content{
+                            padding: 0 10px;
+                            margin-right: 10px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

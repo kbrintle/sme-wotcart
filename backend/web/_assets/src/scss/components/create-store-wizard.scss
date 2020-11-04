@@ -1,0 +1,109 @@
+body.modal-open{
+  #wrapper > header{
+    position: relative;
+    z-index:1;
+  }
+}
+
+
+#createStoreModal{
+  font-family: "Source Sans Pro", sans-serif;
+
+  .modal-body{
+    overflow:hidden;
+    position:relative;
+    //min-height:400px;
+
+    .step{
+      transition: 0.2s all;
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      top: 0;
+      opacity: 0;
+
+      &.active{
+        opacity: 1;
+        left: 0;
+        z-index: 2;
+        position: relative;
+      }
+
+      &.past{
+        left: -33%;
+      }
+
+      &.future{
+        left: 33%;
+      }
+
+
+      .head{
+        color: #76909d;
+        text-align: center;
+        font-size: 16px;
+        padding: 14px 0;
+      }
+
+      .content{
+        padding:18px 14px;
+
+        label{
+          font-weight: normal;
+          font-size: 13px;
+        }
+
+        p{
+          font-size:12px;
+          letter-spacing: normal;
+        }
+
+        h4{
+          font-weight: normal;
+          font-size: 14px;
+          margin: 4px 2px;
+        }
+
+      }
+
+    }
+
+
+    .brand-panel{
+      transition:0.2s all;
+      height:110px;
+      margin:0 0 30px;
+      box-shadow:0 0 2px rgba(0, 0, 0, 0.15);
+      position:relative;
+      cursor:pointer;
+      background: center center;
+      background-size: 100px;
+      background-repeat: no-repeat;
+
+      .check{
+        transition:0.2s all;
+        position:absolute;
+        font-size:18px;
+        bottom:-8px;
+        right:-8px;
+        transform: scale(0);
+      }
+
+      &.active{
+        box-shadow:0 0 2px rgba(17, 148, 246, 1);
+
+        .check{
+          color:rgb(17, 148, 246);
+          transform: scale(1);
+        }
+      }
+    }
+
+
+  }
+
+
+  .modal-footer{
+    border:none;
+  }
+}

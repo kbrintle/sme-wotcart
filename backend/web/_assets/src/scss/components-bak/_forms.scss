@@ -1,0 +1,102 @@
+::-webkit-input-placeholder {
+  color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: red;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: red;
+}
+
+:-ms-input-placeholder {
+  color: red;
+}
+
+form{
+
+  .input-group{
+
+    .input-group-addon{
+      border-radius: 4px;
+      padding: 14px 12px;
+      border: 2px solid $gray;
+      border-right: none;
+
+      &.input-group-addon:not(:first-child):not(:last-child){
+        border-radius: 4px 0 0 4px;
+      }
+    }
+
+    .form-control {
+      border: 2px solid transparent;
+      border-radius: 4px;
+      padding: 14px 12px;
+
+      &:focus {
+        border: 2px solid $navy;
+      }
+
+      &.form-control-alt{
+        border: 2px solid $gray;
+
+        &:focus{
+          border: 2px solid $navy;
+        }
+      }
+    }
+  }
+
+  .form-group{
+
+    &.has-success{
+
+      .form-control{
+        box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+    }
+
+    &.has-error{
+
+      .form-control{
+        border: 2px solid $red;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+    }
+
+    label{
+      color: $main-hover-color;
+    }
+    //label{
+    //  position: absolute;
+    //  top: 9px;
+    //  left: 28px;
+    //}
+
+    .form-control{
+      border: 2px solid $gray;
+      border-radius: 4px;
+      padding: 14px 12px;
+
+      &:focus{
+        border: 2px solid $navy;
+      }
+
+      &.form-control-alt{
+        border: 2px solid $gray;
+
+        &:focus{
+          border: 2px solid $navy;
+        }
+      }
+
+      &.label-pad{
+        padding: 14px 30px;
+      }
+    }
+  }
+}
+

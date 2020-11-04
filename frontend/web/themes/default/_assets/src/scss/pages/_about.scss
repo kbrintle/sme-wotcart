@@ -1,0 +1,40 @@
+.about{
+
+  h2{
+    padding-bottom: 10px;
+  }
+
+  h4{
+    padding-bottom: 30px;
+  }
+
+  .circle{
+    background: $primaryBlue;
+    margin: 0 auto;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    height: 48px;
+    width: 48px;
+
+    i{
+      padding: 12px;
+      color: $white;
+    }
+  }
+
+  .address{
+    margin-left: 15px;
+
+    h5{
+      color: $darkerBlue;
+      font-family: $f-family;
+      font-size: 16px;
+      margin: 0 0 15px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 30px 0 0;
+    }
+  }
+}

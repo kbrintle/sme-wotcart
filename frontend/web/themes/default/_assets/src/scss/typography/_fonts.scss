@@ -1,0 +1,26 @@
+// Primary Font
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600');
+
+@mixin font--primary-light {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin font--primary-regular {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin font--primary-md {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@mixin font--primary-bold {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}

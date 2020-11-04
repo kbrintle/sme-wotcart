@@ -1,0 +1,278 @@
+header {
+  background: $white;
+<<<<<<< HEAD
+  
+  //max-height: 90px;
+=======
+  height: 119px;
+>>>>>>> ticket/homepage-skin
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 90;
+  border-bottom: 1px solid $gray;
+
+  @media (max-width: 992px) {
+    border-bottom: none;
+    //padding: 10px 0;
+  }
+
+  .header-top {
+    background-color: $smeDarkGreen;
+    height: 43px;
+    color: #fff;
+
+    .header-top-left {
+
+      .header-top-lable {
+        font-size: 11px;
+        color: #fff;
+        background-color: $smeGreen;
+        padding: 3px 8px;
+        border-radius: 12px;
+        margin: 0 30px 0 15px;
+      }
+
+      margin-top: 10px;
+      p {
+        color: #fff;
+        font-weight: 300;
+        font-size: 11px;
+      }
+
+      i {
+        font-size: 21px;
+        margin-left: 30px;
+        margin-top: -1px;
+
+        @media(max-width: 1030px) {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .header-top-right {
+      .header-top-icons {
+        .far-gift {
+          width: 24px;
+        }
+
+        @media(min-width: 1030px) {
+          .fav {
+            margin-left: 15px;
+          }
+          .person {
+            margin-left: 10px;
+          }
+        }
+        @media(max-width: 1030px) {
+          .fav {
+            margin-left: 10px;
+          }
+          .person {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .header-bottom {
+    height: 75px;
+    .no-pad-1030 {
+      @media(max-width: 1030px) {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.search-bar {
+  padding: 10px 0;
+
+  .search-box {
+
+    background: #fff;
+    padding: 0 8px;
+    color: $smeDarkGreen;
+    border-radius: 3px;
+
+    ::placeholder {
+      color: $lightGray;
+      letter-spacing: 1.2px;
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+    :-ms-input-placeholder {
+      color: $lightGray;
+      letter-spacing: 1.2px;
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+    input {
+      outline: none;
+      position: relative;
+      width: 90%;
+      padding: 3px;
+      vertical-align: top;
+      border: none;
+      color: $smeDarkGreen;
+
+      &:hover {
+        outline: none;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+    }
+
+    .search-icon {
+      position: relative;
+      width: 10%;
+      padding: 3px;
+      font-size: 16px;
+      color: $smeDarkGreen;
+    }
+  }
+}
+
+//@include breakpoint(extra-small){
+//  .secondary-nav li.search-bar,
+//  .secondary-nav li.store-locator,
+//  .secondary-nav li.am-account,
+//  .search-div,
+//  .searchbox-icon,
+//  .search-bar{
+//    display:none !important;
+//  }
+//  .secondary-nav{
+//    float:right;
+//  }
+//  .secondary-nav li.shopping-cart i{
+//    //margin-top: -48px;
+//    margin-right: 20px;
+//    float:right;
+//    font-size: 22px !important;
+//  }
+//  .navbar .navbar-header .navbar-brand{
+//    padding: 0px 0px 0px 65px !important;
+//  }
+//  .navbar-toggle{
+//    float:left;
+//    margin-left:-25px;
+//  }
+//  .navbar-inverse .navbar-toggle .icon-bar{
+//    background-color: $fontColor;
+//  }
+//  .navbar-inverse .navbar-toggle{
+//    border-color: transparent;
+//  }
+//  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+//    background-color:transparent;
+//  }
+//}
+//
+//@include breakpoint(medium){
+//  .navbar-toggle{
+//    border-color:transparent !important;
+//    float:left !important;
+//    margin-left:-25px !important;
+//    display:block !important;
+//  }
+//  .navbar-inverse{
+//    border-color:transparent !important;
+//
+//    .navbar-collapse{
+//      border: none;
+//      background: $lightGray;
+//      padding: 30px;
+//      //min-height: 100vh;
+//
+//      .navbar-nav{
+//        //display:none !important;
+//
+//        li{
+//          padding: 15px;
+//          text-align: center;
+//        }
+//      }
+//    }
+//  }
+//
+//  .navbar-toggle .icon-bar{
+//    display: block !important;
+//    width: 22px !important;
+//    height: 2px !important;
+//    border-radius: 1px !important;
+//  }
+//  .navbar-inverse .navbar-toggle .icon-bar{
+//    background-color: #77909C !important;
+//  }
+//  .search-div{
+//    margin-left:257px !important;
+//  }
+//  .navbar .navbar-header .navbar-brand{
+//    padding:0px 0px 0px 65px !important;
+//  }
+//}
+//
+//@include breakpoint(special){
+//  .right-nav{
+//    margin-top:-47px;
+//  }
+//  .searchbox-open{
+//    margin-top:-59px !important;
+//  }
+//}
+//
+//.checkout-layout{
+//  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+//    border-color:$white;
+//  }
+//  .navbar-default{
+//    background-color:$white;
+//  }
+//  .navbar-toggle{
+//    display:none !important;
+//  }
+//  .navbar .navbar-header .navbar-brand{
+//    padding:0px !important;
+//  }
+//  @include breakpoint(extra-small){
+//    .margin-left-big{
+//      margin-left:25%;
+//    }
+//  }
+//}
+
+.tel-number-mobile {
+  background: $darkerBlue;
+  padding: 15px;
+  border-radius: 4px 4px 0 0;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
+
+  i {
+    vertical-align: middle;
+    color: $white;
+    margin: -5px 0 0;
+  }
+
+  .tel-number {
+    color: $white;
+    letter-spacing: 2px;
+    font-size: $f-size-lg;
+    text-transform: uppercase;
+
+  }
+}

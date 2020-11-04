@@ -1,0 +1,18 @@
+// WIZARD- RECOMMENDATIONS VIEW
+.wizard-recommendations{
+  .sm-img{
+    width:200px;
+    margin-top:40px;
+  }
+}
+
+
+/**
+ * don't allow for images larger than the parent container
+ * and if they are larger resize them while maintaining
+ * the proper aspect ratio
+ */
+img{
+  max-width:100%;
+  height:auto;
+}

@@ -1,0 +1,148 @@
+form{
+
+  .form-group{
+
+    label{
+      color: $darkerGray;
+      font-size: $f-size-xs;
+      font-family: $f-familyAlt;
+      margin-bottom: 6px;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    input[type="file"] {
+      width: 100%;
+    }
+
+    .form-control{
+      border: 1px solid $gray;
+      border-radius: 4px;
+      box-shadow: none;
+     // padding: 14px 12px;
+
+      &:focus{
+        border: 1px solid $primaryBlue;
+      }
+    }
+
+    &.has-error{
+      position: relative;
+
+      .form-control{
+        border: 1px solid $red;
+
+        &:focus{
+          box-shadow: none;
+        }
+      }
+
+      .help-block{
+        //position: absolute;
+        top: -3px;
+        right: 0;
+        color: $red;
+        font-weight: $f-weight-italic;
+        font-size: $f-size-xs;
+        font-family: $f-family;
+      }
+    }
+  }
+}
+
+.form-control-50{
+  width: 48%;
+  margin-right: 1%;
+}
+
+table{
+
+  form{
+
+    .form-group{
+
+      .form-control{
+        height: 24px;
+        border: 1px solid $gray;
+        box-shadow: none;
+        padding: 14px 12px;
+      }
+    }
+  }
+}
+
+
+
+#sortable{
+  > *{
+    cursor:move;
+  }
+}
+
+.ui-sortable-handle{
+  .drag-panel{
+    transition:0.2s box-shadow;
+    box-shadow:0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  &.ui-sortable-helper{
+
+    .drag-panel{
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+.drag_handle{
+  transition:0.2s all;
+  //background:#ccc;
+  //color:#666;
+  //border:#666;
+  cursor:move;
+  //border:1px solid #666;
+  //border-radius:3px;
+  //padding:0 10px;
+  text-align: center;
+
+  i{
+    color: $darkGray;
+    margin:0;
+    padding:0;
+  }
+
+}
+.drag-panel{
+  padding:10px;
+}
+img.bound{
+  max-width:100%;
+  height:auto;
+}
+
+.image_preview{
+  transition:0.2s all;
+  transform-origin: center center;
+
+  &.deleted{
+    height:0;
+    width:0;
+    transform:scale(0);
+  }
+}
+
+.input-group-btn.sortable_handler{
+  transition:0.2s all;
+  background:$darkBlue;
+  padding:0 8px;
+
+  i{
+    font-size:20px;
+    color:white;
+  }
+
+  &:hover{
+    background:$midBlue;
+  }
+}

@@ -1,0 +1,114 @@
+ul{
+
+  &.course-overview {
+    font-weight: 600;
+    list-style: none;
+    padding: 0;
+
+    li{
+      padding: 0 0 15px;
+
+      .chapter-title{
+
+        h5{
+          color: $main-hover-color;
+          font-size: 18px;
+
+          .course-complete{
+            color: $navy;
+          }
+        }
+
+        &.current{
+
+          span{
+
+            a{
+              color: $main-hover-color;
+
+              i{
+                color: $navy;
+              }
+            }
+          }
+        }
+
+        ul{
+          list-style: none;
+          padding-top: 15px;
+
+          li{
+            padding: 10px 0;
+            font-size: 14px;
+            color: $mid-blue;
+
+            &:hover{
+
+            }
+
+            i{
+              color: $dark-blue;
+              padding-right: 10px;
+
+              &.failed{
+                color: $red;
+              }
+            }
+
+            a{
+
+              &.course-complete{
+
+
+                i{
+                  color: $navy;
+                }
+
+                &:hover{
+                  color: $main-hover-color;
+                }
+
+              }
+
+              i{
+                font-size: 24px;
+                color: $red;
+                padding-right: 10px;
+              }
+
+              &:hover{
+                color: $main-hover-color;
+              }
+            }
+
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.chapter-index{
+
+  .chapter-title{
+
+    color: $main-hover-color;
+  }
+}
+
+.widget-course-stats{
+
+  h4{
+    color: $main-hover-color;
+  }
+
+  .widget-course-stated{
+
+
+  }
+
+  .widget-course-completed{
+
+  }
+}

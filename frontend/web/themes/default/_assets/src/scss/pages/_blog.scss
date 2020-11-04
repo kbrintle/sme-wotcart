@@ -1,0 +1,235 @@
+// Blog List View Styling
+
+.blg{
+  background: $lightGray;
+
+  .blg-header{
+    background: $white;
+    padding: 30px 0;
+
+    .blg-title{
+      font-family: $f-familyAlt;
+      font-size: $f-size-ph;
+      font-weight: $f-weight-med;
+      color: $darkerBlue;
+      //padding: 9px 0;
+      margin: 0;
+      display: inline-block;
+
+      @media (max-width: 768px) {
+        margin-bottom: 15px;
+      }
+    }
+
+    .blg-search-container{
+      border-left: 1px solid $gray;
+      display: inline-block;
+
+      i{
+        padding-left: 15px;
+      }
+    }
+  }
+
+  .blg-grid{
+
+    .blg-post{
+      background: $white;
+      margin-bottom: 30px;
+
+      .blg-post-img{
+
+      }
+
+      .blg-post-content{
+        padding: 30px;
+        min-height: 187px;
+
+        .blg-cat{
+
+        }
+
+        .blg-post-title{
+          font-family: $f-familyAlt;
+          font-size: 21px;
+          font-weight: $f-weight-med;
+          color: $darkerBlue;
+          padding: 4px 0 10px;
+          margin: 4px 0 0;
+        }
+
+        .blg-post-meta{
+          font-family: $f-family;
+          font-size: $f-size-md;
+          font-weight: $f-weight-med;
+          color: $darkGray;
+          padding: 0;
+          margin: 0;
+          text-transform: uppercase;
+        }
+      }
+
+      &.featured{
+
+        .blg-post-img{
+
+        }
+
+        .blg-post-content{
+          min-height: 281px;
+
+          .blg-post-heading{
+
+          }
+
+          .blg-post-author{
+            font-family: $f-family;
+            font-size: $f-size-md;
+            font-weight: $f-weight-med;
+            color: $darkGray;
+            padding: 0 10px 0 0;
+            margin: 0 10px 0 0;
+            text-transform: uppercase;
+            border-right: 1px solid $gray;
+
+          }
+
+          .blg-post-meta{
+
+          }
+
+          .blg-post-description{
+            margin-top:15px;
+          }
+        }
+
+        .blg-post-action{
+          padding:0 30px 30px;
+        }
+      }
+    }
+  }
+}
+
+// Blog Single View Styling
+
+.blg-single{
+
+  .blg-header{
+    background: $white;
+    padding: 30px 0;
+
+    .blg-post-title{
+      font-family: $f-familyAlt;
+      font-size: $f-size-xl;
+      font-weight: $f-weight-med;
+      color: $darkerBlue;
+      padding: 0;
+      margin: 4px 0 0;
+    }
+  }
+
+  .blg-newsletter{
+    #newsletter_messages{
+
+    }
+
+    #newsletter_subscribe_button{
+      transition:0.2s all;
+      vertical-align: top;
+      display: inline-block;
+      float:right;
+      padding: 10px 0;
+      width:100%;
+
+      &.active{
+        width:20%;
+      }
+    }
+
+
+    #newsletter_form{
+      transition:0.2s all;
+      overflow:hidden;
+      float:left;
+      display:inline-block;
+      width:0%;
+
+      &.active{
+        opacity:1;
+        width:78%;
+      }
+    }
+
+  }
+
+  .blg-post-img{
+    .blg-post-img-banner{
+      width:100%;
+      height:300px;
+      @media(min-width:768px){
+        height:500px;
+      }
+      background-size:cover;
+      background-position: center center;
+    }
+  }
+
+  .img-caption{
+    padding: 15px 0 60px;
+
+    span{
+      font-family: $f-family;
+      font-weight: 300;
+      font-size: $f-size-sm;
+      color: $darkGray;
+      letter-spacing: 1px;
+    }
+  }
+
+  .blg-single-meta{
+    padding-bottom: 30px;
+    border-bottom: 1px solid $gray;
+
+    .blg-post-author{
+      font-family: $f-family;
+      font-size: $f-size-md;
+      font-weight: $f-weight-med;
+      color: $darkGray;
+      padding: 0 10px 0 0;
+      margin: 0;
+      text-transform: uppercase;
+      border-right: 1px solid $gray;
+    }
+
+    .blg-post-meta{
+      font-family: $f-family;
+      font-size: $f-size-md;
+      font-weight: $f-weight-med;
+      color: $darkGray;
+      padding: 0 0 0 10px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  .social-share{
+    padding: 30px 0;
+
+  }
+
+  .post-content{
+
+    p{
+      font-weight: 300;
+
+      img{
+        width: 100%;
+      }
+    }
+
+    .post-content-heading{
+
+    }
+  }
+}

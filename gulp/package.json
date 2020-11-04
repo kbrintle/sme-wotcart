@@ -1,0 +1,49 @@
+{
+  "name": "multi-stream-gulpfile",
+  "version": "2.0.0",
+  "description": "Asset pipeline for sites with multiple gulp streams",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "babel-eslint": "^10.0.1",
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.26.5",
+    "css-mqpacker": "^7.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-babel": "^9.0.0",
+    "eslint-plugin-flowtype": "^3.9.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "fs-extra-plus": "^0.5.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.3.1",
+    "merge-stream": "^1.0.1",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.17.1",
+    "yargs": "^13.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ptoly/Gulp-Flow.git"
+  },
+  "author": "Fred Tranfield <me@fredtranfield.com",
+  "license": "ISC"
+}

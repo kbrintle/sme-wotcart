@@ -1,0 +1,61 @@
+.page-adjustables{
+
+  h2{
+
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  .page-title{
+    display: none;
+  }
+
+  .cf{
+
+    .nav-tabs{
+
+      &.search-tabs{
+        padding: 0;
+
+        li{
+
+          @media (max-width: 768px) {
+            font-size: 12px;
+            padding-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .feats{
+    background: $white;
+
+    @media (max-width: 768px) {
+      margin-bottom: 15px;
+    }
+
+
+    .feats-inner{
+      padding: 30px;
+      min-height: 180px;
+      @media (max-width: 992px) {
+        min-height: 238px;
+      }
+    }
+  }
+
+  .product-info-adjustable{
+    background: $white;
+    padding: 30px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 15px;
+    }
+
+    .product-img{
+      max-height: 160px;
+    }
+  }
+}

@@ -1,0 +1,127 @@
+.grid-view{
+
+  .summary{
+    display: none;
+    border-radius: 4px 4px 0 0;
+    background: $dark-blue;
+    padding: 15px 15px 0;
+    color: $white;
+  }
+
+  .table{
+
+    &.table-horizontal{
+      display: block;
+      overflow-x: auto;
+    }
+
+    &.table-stripped{
+
+      tbody{
+
+        tr{
+
+          td{
+            border-top:none;
+          }
+        }
+      }
+    }
+    thead{
+      background: $dark-blue;
+      border-radius: 4px 4px 0 0;
+      th{
+        color: $white;
+        border-bottom: none;
+        padding: 10px 15px;
+
+        a{
+          color: $white;
+          font-size: 14px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 600;
+        }
+      }
+
+      tr{
+
+        td{
+          border: none;
+          padding: 15px;
+
+          .form-control{
+            //border: 2px solid $white;
+            border-radius: 4px;
+            //padding: 14px 12px;
+            height: 24px;
+          }
+        }
+
+        &.filters{
+          background: $light-gray;
+          border-bottom: 1px solid #EEF2F5;
+
+          .form-control{
+            border: 2px solid $gray;
+            border-radius: 4px;
+            height: 24px;
+            padding: 6px;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+
+    tbody{
+      tr{
+        td{
+          border-bottom: 1px solid $gray;
+          border-top: none !important;
+          padding: 15px 15px;
+          vertical-align: middle;
+          margin-bottom: 15px;
+
+
+          a{
+
+            span{
+              padding-right: 5px;
+              color: $dark-blue;
+            }
+
+            &:hover{
+
+              span{
+                color: $mid-blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.table{
+  .clickable-row{
+    cursor: pointer;
+  }
+  &.table-striped{
+
+    tbody{
+      tr:nth-of-type(odd){
+        //background-color: $gray;
+      }
+    }
+  }
+
+  tbody{
+    tr{
+      td{
+        border-top: none;
+      }
+    }
+  }
+}
+

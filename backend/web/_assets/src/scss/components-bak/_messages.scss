@@ -1,0 +1,419 @@
+/* COMPOSE */
+
+.message-form {
+  .form-control {
+    border: 0px;
+    font-weight: bold;
+  }
+  .msg-subject {
+    font-size: 18px;
+    font-weight: 600;
+    color: $dark-blue;
+  }
+
+  ::-webkit-input-placeholder {
+    color: $dark-blue;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: $dark-blue;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: $dark-blue;
+  }
+
+  :-ms-input-placeholder {
+    color: $dark-blue;
+  }
+
+  .msg-body {
+    margin-top: -14px;
+    padding: 10px;
+    font-size: 18px;
+    min-height: 400px;
+  }
+}
+
+.message-index {
+  .nav-pills {
+    li {
+      a {
+        font-size: 15px;
+        border-radius: 50px;
+        color: $dark-blue
+      }
+      a:hover {
+        color: $main-hover-color;
+        background: transparent;
+      }
+    }
+    .active {
+      border-left: 0px;
+      a {
+        color: $main-hover-color;
+        background: transparent;
+      }
+    }
+  }
+  a.compose-new {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid $navy;
+    color: $white !important;
+
+    &:hover{
+      color: $navy !important;
+    }
+  }
+  .table {
+    tr.unread {
+      font-weight: bold;
+    }
+    tr{
+      border-bottom: 1px solid $gray;
+
+      td {
+        padding: 12px 20px 12px 15px;
+        font-size: 15px;
+        a {
+          color: $dark-blue;
+        }
+        b {
+          text-transform: uppercase;
+          color: $dark-blue;
+        }
+
+        .table{
+
+          tr{
+            border: none;
+            padding-bottom: 5px;
+
+            td{
+              padding: 0px;
+
+              input{
+                margin-right: 15px;
+              }
+
+              i{
+                //padding-right: 15px;
+                &.fa-star{
+                  //margin-left:-2px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.message-create {
+  .message-to {
+    background: $white;
+    border-radius: 4px;
+
+    h3 {
+      margin: 0px;
+      padding: 9px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $mid-blue;
+      border-bottom: 1px solid $gray;
+    }
+    p {
+      padding: 9px 12px;
+      font-size: 13px;
+      font-weight: bold;
+      border-bottom: 1px solid $gray;
+    }
+    ul {
+      margin: -1px 0px 0px 0px;
+      padding: 0px 0px 0px 12px;
+      list-style-type: none;
+    }
+    ul ul {
+      padding-left: 20px;
+    }
+    ul li {
+      padding: 10px 0px 10px 5px;
+      font-size: 14px;
+      font-weight: 600;
+      color: $dark-blue;
+    }
+    ul li .caret {
+      float: right;
+      margin: 8px 10px 0px 0px;
+    }
+    ul li input {
+      margin-right: 10px;
+    }
+    .bordered {
+      border-top: 1px solid $gray;
+    }
+  }
+  .compose-new {
+    margin-top: 25px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  li.ancestor {
+    cursor: pointer;
+  }
+}
+
+.message-view {
+  .nav-pills {
+    li {
+      a {
+        font-size: 15px;
+        border-radius: none;
+      }
+      a:hover {
+        color: $text-color;
+        background: $active-alt;
+      }
+    }
+    .active {
+      border-left: 0px;
+      a {
+        color: $text-color;
+        background: $active-alt;
+      }
+    }
+  }
+  a.compose-new {
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    color: $white;
+  }
+  table {
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  table tr th {
+    width: 100px;
+    text-align: right;
+    text-transform: uppercase;
+    color: $dark-blue;
+  }
+  .message-body {
+    padding: 25px 20px 30px 95px;
+  }
+}
+
+.message-overview {
+  .container-fluid {
+    padding: 0px;
+  }
+}
+
+.message-column {
+  margin-top: -20px;
+  margin-left: -14px;
+  height: 1149px;
+  background: $border-color;
+}
+
+
+.message-container{
+
+  .no-messages{
+    text-align: center;
+    padding: 25%;
+
+    span{
+
+      i{
+        font-size: 48px;
+        color: $gray;
+      }
+    }
+
+    p{
+      color: $dark-blue;
+    }
+  }
+
+  .list-group{
+    background: $white;
+    border-radius: 4px 0 0 4px;
+    margin-bottom: 0;
+    min-height: 450px;
+    border-right: 1px solid $gray;
+
+    .msg{
+
+      .msg-fullname{
+        font-size: 14px;
+
+      }
+
+      .msg-datetime{
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark-blue;
+
+
+        span{
+          float: right;
+          margin-top: 2px;
+        }
+      }
+
+      .msg-title{
+        font-size: 11px;
+        color: $text-color;
+        font-weight: 300;
+      }
+
+    }
+
+    .unread{
+
+      .table{
+        margin-bottom: 0;
+
+        .msg-fullname{
+          position:relative;
+          h4{
+            margin:4px 0;
+          }
+          p{
+            margin-bottom: 6px;
+          }
+          i{
+            position:absolute;
+            color: $navy;
+            font-size: 10px;
+            left: -11px;
+            top: 5px;
+          }
+        }
+
+        .msg-datetime{
+          color: $navy;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    .no-messages{
+      text-align: center;
+      padding: 25%;
+
+      span{
+
+        i{
+          font-size: 48px;
+          color: $gray;
+        }
+      }
+
+      p{
+        color: $dark-blue;
+      }
+    }
+  }
+
+  .msg-profile-img{
+
+
+    .img-circle{
+      margin-top: 15px;
+    }
+  }
+
+  .message-title{
+    padding-top: 15px;
+
+    h4{
+      color: $main-hover-color;
+      font-size: 18px;
+      margin: 0;
+
+      i{
+        padding-right: 10px;
+        color: $gray;
+      }
+    }
+  }
+
+  .message-utility-bar{
+    padding-top: 15px;
+
+    a{
+      padding: 0px 6px;
+
+      i{
+
+      }
+    }
+  }
+
+  .message-meta{
+    //padding-left: 27px;
+
+    .message-meta-author{
+      color: $navy;
+    }
+
+    .message-meta-date{
+      color: $dark-blue;
+    }
+  }
+
+  .star{
+    &.starred{
+      color: $yellow;
+    }
+  }
+
+
+}
+.user-list-block{
+  margin:0 0 20px 0;
+  .user-list{
+    margin:0 0 6px 0;
+    padding:0;
+
+    list-style:none;
+    display:block;
+    width:100%;
+    clear: both;
+    max-height: 200px;
+    overflow-y: scroll;
+
+    li{
+      padding:2px 0;
+      display:none;
+    }
+  }
+
+}
+
+.notification-frm{
+  .modal-title{
+    margin-top:14px;
+  }
+  .modal-header{
+
+    .recipients_list{
+      li{
+        //float:left;
+      }
+    }
+  }
+
+
+}
+
+

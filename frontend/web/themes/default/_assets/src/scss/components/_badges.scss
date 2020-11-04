@@ -1,0 +1,13 @@
+.badge{
+
+  &.cart-count-item{
+    background: $primaryBlue;
+    border: 2px solid $white;
+    min-width: 14px;
+    min-height: 14px;
+    font-size: $f-size-xs;
+    position: relative;
+    top: -10px;
+    left: -15px;
+  }
+}

@@ -1,0 +1,23 @@
+.empty-state{
+  padding: 30px;
+
+  i{
+    color: $gray;
+    font-size: 48px;
+  }
+
+  h3{
+    padding: 15px 0 10px;
+    color: $sidebarColor;
+    font-family: $f-family;
+    font-weight: $f-weight-bold;
+    font-size: $f-size-ph;
+  }
+
+  p{
+    font-size: $f-size;
+    color: $sidebarColor;
+    font-weight: 300;
+    padding-bottom: 20px;
+  }
+}

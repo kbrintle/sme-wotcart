@@ -1,0 +1,204 @@
+.checkout-layout{
+
+  .navbar-header{
+    float: none;
+
+    .navbar-brand{
+      float: none;
+    }
+  }
+
+  .checkout{
+
+    .checkout-order-customer{
+
+    }
+
+    .checkout-order-shipping{
+
+    }
+
+    .checkout-order-delivery{
+
+      .panel-body{
+        padding: 45px 30px 30px;
+
+        .radio{
+          margin-top: 15px;
+          margin-bottom: 30px;
+        }
+      }
+
+    }
+
+    .checkout-order-payment{
+
+      .secure-msg{
+        color: $gray;
+
+        i{
+          font-size: $f-size-lg;
+          padding-right: 5px;
+          vertical-align: middle;
+
+        }
+
+        span{
+          font-size: $f-size-sm;
+        }
+      }
+    }
+
+    .cart{
+
+      .cart-product-list{
+
+        .cart-item{
+
+          .cart-product-description{
+
+            .cart-product-image{
+
+            }
+
+            .cart-product-ttl{
+              font-size: $f-size-sm;
+              color: $darkerGray;
+            }
+
+            .cart-product-qty{
+              font-size: $f-size-sm;
+              color: $darkerGray;
+            }
+
+            .cart-product-price{
+              font-family: $f-family;
+              font-size: $f-size-sm;
+              color: $darkerGray;
+            }
+          }
+        }
+      }
+    }
+
+    .checkout-terms{
+
+      p{
+        font-size: $f-size-xs;
+        padding: 10px 30px 30px;
+        margin-bottom: 0;
+        line-height: 16px;
+      }
+    }
+  }
+
+  form{
+    .form-group{
+      .radio{
+        label{
+          color: $darkerGray;
+          font-size: 14px;
+          font-family: $f-familyAlt;
+          margin-bottom: 6px;
+          display: initial;
+        }
+      }
+
+    }
+  }
+
+  .confirm{
+
+    .cart-product-list{
+
+      .cart-item{
+        padding-bottom: 30px;
+        overflow: hidden;
+
+        .cart-product-description{
+
+          .cart-product-image{
+
+          }
+
+          .cart-product-ttl{
+            font-size: $f-size-sm;
+            color: $darkerGray;
+          }
+
+          .cart-product-qty{
+            font-size: $f-size-sm;
+            color: $darkerGray;
+          }
+
+          .cart-product-price{
+            font-family: $f-family;
+            font-size: $f-size-sm;
+            color: $darkerGray;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Styling For Order Status On Confirmation Page
+
+.order-status{
+
+  .progress{
+    height: 5px;
+    box-shadow: none;
+    background: $white;
+    margin-bottom: 0;
+
+    .progress-bar{
+      background: $primaryBlue;
+      box-shadow: none;
+    }
+  }
+
+  .order-steps{
+    position: relative;
+    top: -11px;
+    left: 0;
+
+    .order-step{
+      color: $darkGray;
+
+      .active{
+        color: $primaryBlue;
+      }
+
+      .inactive{
+        color: $white;
+      }
+
+      i{
+        font-size: $f-size-lg;
+        background: #ffffff;
+        border-radius: 25px;
+      }
+
+      &.step-1{
+
+      }
+
+      &.step-2{
+        text-align: center;
+
+        @media (max-width: 768px) {
+
+        }
+      }
+
+      &.step-3{
+        text-align: right;
+
+        @media (max-width: 768px) {
+
+        }
+      }
+    }
+  }
+}

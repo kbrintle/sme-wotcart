@@ -1,0 +1,21 @@
+.main{
+  background: $lightGray;
+  min-height: 100vh;
+
+  .page-sub-heading{
+    margin-bottom: 0;
+    border-radius: 0px;
+    border: 0px;
+    top: 90px;
+    right: 0;
+    left: 0;
+
+    h3{
+      margin-top: 6px;
+    }
+  }
+
+  #page-content{
+    //height: 100vh;
+  }
+}

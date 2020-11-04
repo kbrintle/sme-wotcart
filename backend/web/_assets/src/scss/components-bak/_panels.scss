@@ -1,0 +1,501 @@
+.panel{
+
+  &.course-cat{
+    background: $light-gray;
+  }
+
+  &.media-tile{
+    position: relative;
+    border: 0px;
+    box-shadow: 0px 2px 0px rgba(0,0,0,0.15);
+
+    .panel-heading{
+      color: $dark-blue;
+      background-color: $white;
+      border: none;
+
+      .dropdown{
+
+        i{
+
+          &:hover{
+            color: $main-hover-color;
+          }
+        }
+      }
+    }
+
+    .panel-body{
+      padding: 15px 30px;
+
+      a{
+        display: block;
+
+        i{
+          color: $dark-blue;
+          font-size: 24px;
+          text-align: center;
+        }
+
+        h2{
+          color: $main-hover-color;
+          font-size: 24px;
+        }
+      }
+    }
+
+    .panel-footer{
+      background: $white;
+      border: none;
+      min-height: 100px;
+
+      p{
+        color: $dark-blue;
+      }
+    }
+  }
+
+  &.document-tile{
+    position: relative;
+    min-height: 300px;
+    border: 0px;
+    box-shadow: 0px 2px 0px rgba(0,0,0,0.15);
+
+
+    .panel-body{
+
+      h3 {
+        font-size: 15px;
+        color: $dark-blue;
+        &.action-icon {
+          font-size: 15px;
+          a {
+            padding-left: 15px;
+            color: $dark-blue;
+          }
+        }
+      }
+      .tile-icon {
+        //position: absolute;
+        padding: 0 84px;
+        top: 36%;
+        left: 32%;
+        font-size: 9em;
+        color: $dark-blue;
+      }
+    }
+
+    .panel-footer{
+      background: $light-gray;
+      border-top: none;
+    }
+  }
+
+  &.course{
+    margin: 0;
+    border: none;
+    margin-bottom: 15px;
+    min-height: 310px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+
+    .panel-heading{
+      background: $white;
+      padding: 30px 30px 0;
+      border-bottom: none;
+
+      h4{
+        margin: 0;
+        padding: 5px 0 0;
+
+        i{
+          padding-right: 5px;
+        }
+      }
+
+      h5{
+        color: $dark-blue;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        font-size: $font-xs;
+      }
+
+      a{
+        color: $main-hover-color;
+
+        &:hover{
+          color: $main-hover-color;
+        }
+      }
+
+      .course-cat{
+        position: absolute;
+        width: 8px;
+        height: 50px;
+        top: 20px;
+        left: 11px;
+        background: $navy;
+
+        i{
+          color: $white;
+
+        }
+      }
+
+      .course-lock{
+        position: absolute;
+        top: 5px;
+        right: 20px;
+      }
+
+      .course-progression{
+        padding: 8px 0;
+
+        span{
+          padding:0 5px;
+
+          i{
+            color: $white;
+          }
+        }
+      }
+    }
+
+    .panel-body{
+      padding: 15px 30px;
+      min-height: 178px;
+    }
+
+    .panel-footer{
+      background: $white;
+      border-top:none;
+      padding: 15px 15px 15px 30px;
+      overflow: hidden;
+
+      .course-chpt{
+        margin-top: 3px;
+
+        h5{
+          text-transform: uppercase;
+          margin: 0;
+          font-size: 10px;
+        }
+
+        i{
+          margin-right: 5px;
+          color: $dark-blue;
+          font-size: 10px;
+        }
+      }
+
+      &.panel-course{
+        border-top:none;
+        background: $white;
+        padding-top:30px;
+        padding-bottom: 15px;
+        min-height:81px;
+      }
+    }
+  }
+
+  &.course-syllabus{
+    position: relative;
+
+    h5{
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .panel-heading{
+      padding: 30px 30px 0;
+
+      h2{
+        margin: 0;
+        padding-bottom: 0;
+      }
+
+      .course-cat{
+        position: absolute;
+        width: 8px;
+        height: 50px;
+        top: 20px;
+        left: -5px;
+        background: $navy;
+
+        i{
+          color: $white;
+
+        }
+      }
+    }
+
+    .panel-body{
+      padding: 15px 30px;
+
+      .course-overview{
+
+        li{
+
+          .chapter-title{
+
+            h5{
+              padding-bottom: 10px;
+
+
+              a{
+
+                &:hover{
+
+                }
+              }
+            }
+
+            ul{
+              padding: 0;
+
+              li{
+                padding: 15px 0;
+                border-top: 1px solid #ECEFF1;
+
+                a{
+                  color: $main-hover-color;
+                  font-size: 16px;
+
+                  &:hover{
+
+                  }
+
+                  i{
+                    vertical-align: middle;
+                    font-size: 16px;
+                    margin-bottom: 2px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    .panel-footer{
+
+    }
+
+  }
+
+  &.course-grid{
+
+
+    .panel-body{
+      min-height: 275px;
+
+      h3{
+
+        a{
+          color: $dark-blue;
+
+          &:hover{
+            color:  $navy;
+          }
+        }
+      }
+
+      .action-icon{
+
+        a{
+          color: $dark-blue;
+
+          &:hover{
+            color:  $navy;
+          }
+
+          i{
+            font-size: 18px;
+            padding-left: 10px;
+          }
+        }
+      }
+
+      .course-icon{
+        a{
+          color: $dark-blue;
+
+          &:hover{
+            color:  $navy;
+          }
+
+          i{
+            font-size: 72px;
+            position:absolute;
+            top: 106px;
+            left: 136px;
+          }
+        }
+      }
+    }
+  }
+
+  &.panel-select{
+    margin: 0;
+    border: none;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  &.panel-am{
+    margin: 0;
+    border: none;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+
+    &.panel-widget{
+
+      .widget-heading{
+        background: $light-gray;
+      }
+
+      .panel-body{
+        min-height: 200px;
+        max-height: 200px;
+        text-transform: uppercase;
+
+        &.widget-body{
+          padding-top: 0;
+        }
+
+        &.widget-stats{
+          min-height: 100%;
+          max-height: 100%;
+          padding-top: 15px;
+        }
+
+        .widget-count{
+          padding: 28px 0;
+          text-align: center;
+        }
+
+        &.total-revenue{
+          min-height: none;
+
+          .total-count{
+            display: block;
+            min-height: 90px;
+
+            .target{
+              text-align: center;
+              vertical-align: middle;
+              padding: 28px 0;
+            }
+
+            .week{
+              text-align: center;
+              vertical-align: middle;
+              padding: 28px 0;
+            }
+
+            .month{
+              text-align: center;
+              vertical-align: middle;
+              padding: 28px 0;
+            }
+
+          }
+        }
+      }
+
+      .panel-footer{
+        border-top: none;
+
+        span{
+
+          i{
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+
+
+    .panel-heading{
+
+      &.panel-vid{
+        padding: 0;
+      }
+
+      h3{
+        text-transform: uppercase;
+        color: $mid-blue;
+        font-size: 12px;
+      }
+    }
+
+    .panel-body{
+
+
+      h3{
+        font-size: 16px;
+        text-align: center;
+        color: $dark-blue;
+        margin: 0;
+      }
+
+      p{
+        margin: 0 0 15px;
+        font-size: 12px;
+        color: $text-color;
+      }
+    }
+
+    .panel-footer{
+      background: $dark-blue;
+      color: $white;
+      text-align: center;
+
+      &.panel-course{
+        border-top:none;
+        background: $white;
+        padding-top:30px;
+        padding-bottom: 15px;
+        min-height:81px;
+      }
+
+      &.panel-message{
+        border-top: none;
+        background: $white;
+        padding-top:30px;
+        padding-bottom: 15px;
+        min-height:81px;
+      }
+    }
+
+  }
+
+  &.panel-search{
+    //position: fixed;
+  }
+
+  &.message-panel{
+    margin: 0;
+    border: none;
+    margin-bottom: 15px;
+
+    .panel-heading{
+      border-bottom: 1px solid $gray;
+    }
+
+    .panel-body{
+      min-height: 292px;
+
+      p{
+        color: $text-color;
+      }
+    }
+
+    .panel-footer{
+
+    }
+  }
+
+}

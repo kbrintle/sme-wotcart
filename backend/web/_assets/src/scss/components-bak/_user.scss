@@ -1,0 +1,52 @@
+.user-form{
+
+  .user-left{
+    padding-right: 15px;
+    padding-top: 30px;
+
+  }
+
+  .user-right{
+    padding-left: 15px;
+    padding-top: 30px;
+
+    h2{
+      color: $main-hover-color;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      margin-top: 0;
+      border-bottom: 1px solid #ECEFF1;
+    }
+  }
+}
+
+.user-view{
+
+  .user-company-info{
+
+    span{
+      display: block;
+      padding-bottom: 15px;
+
+      &.user-view-company{
+        color: $main-hover-color;
+
+        span{
+          display: inline;
+          color: $dark-blue;
+          padding-left: 5px;
+        }
+      }
+
+      &.user-view-organization{
+        color: $main-hover-color;
+
+        span{
+          display: inline;
+          color: $dark-blue;
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+}

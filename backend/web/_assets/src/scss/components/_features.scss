@@ -1,0 +1,25 @@
+.feature__ui{
+
+  .feature-cat{
+    text-transform: uppercase;
+    color: $red;
+    font-family: $f-family;
+    font-weight: $f-weight-med;
+    font-size: $f-size-xs;
+  }
+
+  .feature-name{
+    color: $darkerGray;
+    font-family: $f-family;
+    font-weight: 300;
+    font-size: $f-size-lg;
+    margin: 0;
+  }
+
+  .feature-description{
+    padding-top: 15px;
+    letter-spacing: 1px;
+    font-size: $f-size-md;
+  }
+}
+

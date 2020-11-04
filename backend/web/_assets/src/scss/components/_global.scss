@@ -1,0 +1,18 @@
+a{
+  color: $primaryBlue;
+
+  &:hover{
+    color: $darkBlue;
+    text-decoration: none;
+  }
+
+  &:focus{
+    outline: none;
+    color: $darkBlue;
+    text-decoration: none;
+  }
+}
+
+.min-height-standard{
+  min-height: 400px;
+}

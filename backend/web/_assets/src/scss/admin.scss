@@ -1,0 +1,71 @@
+// Variables, Mixins
+@import "components/variables";
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+//@import "components-bak/components";
+
+// Clear layout on print mode
+@media print {
+  nav.navbar-static-side {
+    display: none;
+  }
+
+  #page-wrapper {
+    margin: 0;
+  }
+}
+
+
+// Components
+@import "components/animate";
+@import "components/alerts";
+@import "components/attributes";
+@import "components/backgrounds";
+@import "components/badges";
+@import "components/buttons";
+@import "components/categories";
+@import "components/color";
+@import "components/dl";
+@import "components/dropdowns";
+@import "components/empty-state";
+@import "components/features";
+@import "components/forms";
+@import "components/global";
+@import "components/header";
+@import "components/labels";
+@import "components/modals";
+@import "components/nav";
+@import "components/panels";
+@import "components/promotions";
+@import "components/sidebar";
+@import "components/tables";
+@import "components/tabs";
+@import "components/toggle";
+@import "components/typography";
+@import "components/user";
+@import "components/utilities";
+@import "components/search";
+@import "components/create-store-wizard";
+@import "components/product-grid";
+@import "components/graphs";
+@import "components/searchanise";
+
+
+// Layouts
+@import "layouts/main";
+
+// Pages
+@import "pages/404";
+@import "pages/benefits";
+@import "pages/catalog-brand";
+@import "pages/login";
+@import "pages/order-view";
+@import "pages/data-table";
+
+
+
+
+
+

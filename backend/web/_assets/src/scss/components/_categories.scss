@@ -1,0 +1,21 @@
+.category__ui{
+
+  .panel-body{
+
+    .cat-label{
+      color: $green;
+      text-transform: uppercase;
+      font-family: $f-family;
+      font-size: $f-size-xs;
+      margin: 0;
+    }
+
+    h3{
+      color: $darkerGray;
+      font-family: $f-family;
+      font-weight: 300;
+      font-size: $f-size-lg;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+// Brand Colors
+$smeGreen:              #00AB50;
+$smeDarkGreen:           #33423A;
+
+// Colors
+$white:                 #FFFFFF;
+$primaryBlue:           #2196F3;
+$darkBlue:              #1E88E5;
+$midBlue:               #004A7D;
+$darkerBlue:            #004270;
+$green:                 #00C07F;
+$pricegreen:            #00AB4F;
+$yellow-old:            #FFBB50;
+$red-old:               #FF6562;
+
+$color-ss-darkBlue:     #003A70;
+$color-ss-Blue:         #346094;
+$color-ss-lightBlue:    #CFD9E6;
+$color-ss-Blue-subtle:  #F1F4F8;
+$color-ss-redTint:      #D12652;
+$color-ss-redShade:     #BB103C;
+
+$tableStriped:          lighten( $primaryBlue, 3% );
+$lightestGray:          #F8F9FA;
+$lightGray:             #7D8C84;
+$gray:                  #95989A;
+$disabled:              #eaeeef;
+$darkGray:              #627680;
+$grayHover:             #B0BEC5;
+$darkerGray:            #253137;
+$headerGray:            #343A40;
+$borderGray:            #E7E8EA;
+$altGray:               #868E96;
+// Font Colors
+$fontColor:            $darkGray;
+
+// Font Families
+$f-family: 'Work Sans', sans-serif;
+$f-familyAlt: 'Work Sans', sans-serif;
+$f-familyScript: 'Work Sans', sans-serif;
+
+
+// Font Weights
+$f-weight-italic: 400i;
+
+$f-weight-lite: 300;
+$f-weight: 400;
+$f-weight-med: 500;
+$f-weight-bold: 600;
+
+// Font Sizes
+$f-size: 16px;
+$f-size-xs: 10px;
+$f-size-sm: 12px;
+$f-size-md: 14px;
+$f-size-lg: 18px;
+$f-size-ph: 24px;
+$f-size-xl: 30px;
+$f-size-h1: 60px;
+
+//Border radius for buttons
+$btn-border-radius: 4px;
+
+$gutter-padding:20px;
+
+
+
+//BREAK POINTS
+/**
+ * Break points
+ */
+@mixin breakpoint($breakpoint){
+  @if $breakpoint == large{
+    @media (min-width: 1200px){
+      @content;
+    }
+  }
+  @else if $breakpoint == medium{
+    @media(max-width:1215px){
+      @content;
+    }
+  }
+  @else if $breakpoint == medium-only{
+    @media(min-width:992px) and (max-width: 1119px){
+      @content;
+    }
+  }
+  @else if $breakpoint == small{
+    @media(min-width:768px){
+      @content;
+    }
+  }
+  @else if $breakpoint == small-only{
+    @media(min-width:768px) and (max-width:991px){
+      @content;
+    }
+  }
+  @else if $breakpoint == extra-small{
+    @media(max-width:767px){
+      @content;
+    }
+  }
+  @else if $breakpoint == special{
+    @media(min-width:767px) and (max-width:990px){
+      @content;
+    }
+  }
+}

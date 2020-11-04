@@ -1,0 +1,110 @@
+.doc{
+  text-align: center;
+  border: none;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+
+
+  .doc-heading{
+    border: none;
+    background: $white;
+    overflow: hidden;
+
+    span{
+
+      i{
+        padding-left: 15px;
+        color: $dark-blue;
+        vertical-align: middle;
+
+        &:hover{
+          color: $main-hover-color;
+        }
+      }
+
+    }
+
+  }
+
+  .doc-body{
+
+
+    .doc-title{
+      color: $main-hover-color;
+    }
+
+    .doc-file{
+      font-size: $font-xs;
+      font-weight: 300;
+      color: $navy;
+    }
+  }
+
+  .doc-footer{
+    background: $white;
+    border: none;
+    overflow: hidden;
+
+    .doc-info{
+      color: $dark-blue;
+
+      &:hover{
+        color: $main-hover-color;
+      }
+    }
+
+    .doc-file-size{
+      font-size: $font-xs;
+      font-weight: 300;
+      color: $dark-blue;
+    }
+  }
+
+  &.doc-modal{
+    text-align: left;
+
+    .modal-content{
+
+    }
+
+    .doc-body{
+
+      .doc-icon{
+        font-size: 36px;
+        padding: 15px 30px;
+
+        i{
+          color: $dark-blue;
+        }
+
+      }
+
+      .doc-file-info{
+        display: block;
+        margin-bottom: 20px;
+        .doc-title{
+          margin-bottom: 0px;
+        }
+
+        .doc-file-size{
+          display: inline;
+          font-weight: 300;
+          padding-right: 10px;
+        }
+
+        .doc-file-cat{
+          display: inline;
+          font-weight: 300;
+        }
+
+        .doc-file-name{
+          display: inline;
+          font-size: 11px;
+          font-weight: 300;
+          color: #0061AA;
+          padding-right: 10px;
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.progress{
+  height: 8px;
+  width: 80px;
+  border-radius: 0;
+  background: #F9FAFB;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  position: relative;
+  overflow: visible;
+
+  &.progress-overview{
+    position: absolute;
+    right: 70px;
+  }
+
+  .progress-bar{
+    background-color: $lazur;
+
+    span{
+      position: absolute;
+      text-indent: 90px;
+      top: -6px;
+      display: block;
+      color: $mid-blue;
+    }
+  }
+}

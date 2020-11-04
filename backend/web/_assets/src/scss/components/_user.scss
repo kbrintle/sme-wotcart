@@ -1,0 +1,17 @@
+.user__account{
+  padding:0 15px;
+
+  .profile-dropdown{
+
+    .user__account-profile{
+      background: $primaryBlue;
+      border-radius: 100%;
+      color: $white;
+      padding: 10px;
+    }
+
+    i{
+      vertical-align: middle;
+    }
+  }
+}

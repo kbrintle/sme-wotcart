@@ -1,0 +1,54 @@
+.redactor-box{
+  border: 2px solid $gray;
+  border-radius: 4px;
+  margin-bottom: 0;
+
+  .redactor-toolbar{
+    background: $light-gray;
+    box-shadow: none;
+    border-radius: 2px 2px 0 0;
+
+    li{
+
+      a{
+        color: $dark-blue;
+
+        &:hover, &:active, &:focus {
+          background-color: transparent;
+          color: $mid-blue;
+        }
+
+        &.redactor-act{
+          background-color: transparent;
+          color: $navy;
+        }
+      }
+    }
+  }
+
+  .redactor-editor{
+    border: none;
+    border-top: 2px solid $gray;
+    border-radius: 0 0 4px 4px;
+    padding: 15px;
+  }
+}
+
+.redactor-dropdown{
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.25);
+
+  a{
+
+    &:hover {
+      background-color: $gray;
+      color: $mid-blue !important;
+    }
+  }
+}
+
+.message-form{
+
+  .redactor-editor{
+    min-height: 300px;
+  }
+}

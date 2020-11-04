@@ -1,0 +1,48 @@
+.masthead{
+  background-image: url(/themes/default/_assets/src/images/sme/sme_hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 60vh;
+  display: table;
+  margin-top:118px;
+  width: 100%;
+
+  .masthead-center{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .masthead__content{
+
+    h1{
+      margin: 0 0 10px;
+
+      @media (max-width: 768px) {
+        font-size: 48px;
+      }
+    }
+
+    p{
+      color: $lightGray;
+      padding: 0 0 30px;
+    }
+  }
+}
+
+.brand-masthead{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .masthead__content{
+
+    p{
+      color: $lightGray;
+      padding: 0 0 30px;
+    }
+  }
+}

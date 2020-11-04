@@ -1,0 +1,127 @@
+.panel{
+
+  .panel-heading{
+
+  }
+
+  .panel-body{
+    &.panel-benefit_body{
+      min-height: 140px;
+    }
+  }
+
+  .panel-footer{
+
+  }
+
+  &.panel__ui{
+    border-radius: 4px;
+    background: $white;
+    border: 1px solid $gray;
+
+    .panel-heading{
+      padding: 15px;
+      border-bottom: 1px solid $gray;
+
+      &.panel-tab-heading{
+        padding: 15px 15px 0;
+      }
+
+      h4{
+        color: $darkGray;
+        font-size: $f-size-md;
+        font-family: $f-family;
+        font-weight: $f-weight-med;
+        margin: 5px 0 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .panel__ui-heading-icon{
+        max-height: 24px;
+
+        .material-icons{
+          color: $gray;
+        }
+      }
+    }
+
+    .panel-body{
+      padding: 15px;
+
+      .panel-action{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+
+        i{
+          color: $gray;
+          font-size: $f-size-lg;
+        }
+
+        a{
+          margin: 0;
+          font-family: $f-family;
+          font-size: $f-size-xs;
+          font-weight: 300;
+
+          i{
+            color: $primaryBlue;
+            font-size: $f-size-ph;
+          }
+        }
+      }
+    }
+
+    .panel-footer{
+      padding: 15px;
+    }
+  }
+
+  &.panel__new-product{
+    box-shadow: 0 16px 26px 0 rgba(0,0,0,.05);
+    transition: transform .3s;
+
+    &:hover{
+      transform: translateY(-1rem);
+    }
+
+    button{
+      border: none;
+      background: $white;
+      width: 100%;
+
+      &:focus{
+        outline: none;
+      }
+
+      .panel-body{
+        min-height: 200px;
+
+        .new-product-type{
+          padding: 60px 0;
+
+          i{
+            font-size: $f-size-h1;
+            color: $primaryBlue;
+          }
+
+          h4{
+            color: $darkerGray;
+            font-family: $f-family;
+            font-weight: 300;
+            margin: 0;
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  &.panel__new-product-ui {
+
+    .panel-body{
+      padding: 30px;
+    }
+  }
+}

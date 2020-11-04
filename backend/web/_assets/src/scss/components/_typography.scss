@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $f-familyAlt;
+  font-weight: $f-weight-bold;
+  color: $darkGray;
+}
+
+h1 {
+  font-size: $f-size-h1;
+  color: $white;
+}
+
+h2 {
+  font-size: $f-size-xl;
+
+  &.h-heading{
+    margin: 0;
+    padding-bottom: 30px;
+  }
+}
+
+h3 {
+  font-size: $f-size-lg;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-size: $f-size;
+
+  &.sub-heading{
+    text-transform: uppercase;
+    margin: 0;
+    color: $primaryBlue;
+  }
+}
+
+h5 {
+  font-size: $f-size-md;
+  color: $darkGray;
+  letter-spacing: 2px;
+}
+
+h6 {
+  font-size: $f-size-xs;
+}
+
+p{
+  font-family: $f-family;
+  font-size: $f-size;
+  color: $darkGray;
+  line-height: 20px;
+  letter-spacing: 2px;
+}

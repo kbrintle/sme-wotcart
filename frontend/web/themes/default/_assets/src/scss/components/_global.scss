@@ -1,0 +1,52 @@
+a{
+  color: $primaryBlue;
+  letter-spacing: 1px;
+
+  &:hover{
+    color: $darkBlue;
+    text-decoration: none;
+  }
+
+  &:focus{
+    outline: none;
+    color: $darkBlue;
+    text-decoration: none;
+  }
+
+  &.sm-a{
+    font-size: $f-size-sm;
+  }
+}
+
+ol{
+  font-family: $f-family;
+  font-size: $f-size-md;
+  color: $darkGray;
+  line-height: 20px;
+  letter-spacing: 1px;
+
+  li{
+
+  }
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+
+.min-height-standard{
+  min-height: 400px;
+}
+
+.g-recaptcha{
+  width:304px;
+}
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}

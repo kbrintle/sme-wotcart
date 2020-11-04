@@ -1,0 +1,27 @@
+.wrap{
+
+  .page{
+
+    .page-info{
+      background: $lite-3;
+      padding: $spacer-15 0;
+      @media (max-width: 768px) {
+        padding: $spacer-30 0;
+      }
+      .page--info-title{
+        color: $headerGray;
+        font-size: 30px;
+        margin: 0;
+        font-weight: 300;
+        letter-spacing: 1.8px;
+      }
+    }
+
+    .page-content{
+
+      .page--content-pad{
+        padding: $spacer-30 0;
+      }
+    }
+  }
+}

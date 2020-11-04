@@ -1,0 +1,84 @@
+.account{
+  .account-nav{
+    .nav-menu-heading{
+      color: $darkGray;
+      padding: 15px 0;
+    }
+
+    .nav{
+      &.nav-tabs{
+
+        li{
+          font-family: $f-family;
+          font-size: $f-size;
+          width:100%;
+
+          &.active{
+            color: $darkerBlue;
+
+            a{
+              color: $darkerBlue;
+            }
+          }
+
+          a{
+
+            &:hover{
+              color: $darkerBlue;
+            }
+
+            &:focus{
+              background-color: transparent;
+            }
+          }
+        }
+      }
+
+      li{
+
+        &.active{
+          color: $darkerBlue;
+        }
+
+        a{
+          padding: 0 0 15px;
+
+          &:hover{
+            color: $darkerBlue;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar{
+    margin-top: 0;
+    @media (max-width: 768px) {
+      display: block;
+      margin: 30px 0;
+    }
+  }
+}
+
+.account-logged-in {
+  width: 36px;
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
+  &.dropdown {
+    .dropdown-menu {
+      right: 0;
+      left: auto;
+      padding: 12px 15px;
+      background: #33423A;
+      color: #fff;
+      a {
+        line-height: 26px;
+        max-height: 26px;
+      }
+    }
+  }
+}

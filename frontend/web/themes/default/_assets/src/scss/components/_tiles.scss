@@ -1,0 +1,47 @@
+
+.tile-container {
+  margin-top: $spacer-30;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  border: 1px solid $lite-2;
+  border-radius: 2px;
+  margin: 0 2% $spacer-15 0;
+  padding: $spacer-15;
+  text-align: left;
+  flex-basis: 23%;
+
+  a {
+
+  }
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  .tile-img {
+    min-height: 100px;
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: $spacer-15;
+    margin-bottom: $spacer-10;
+    width: 100%;
+
+    i {
+      font-size: 24px;
+      color: $lite;
+    }
+
+    .favorite-folder {
+      width: 70px;
+      height: 70px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}

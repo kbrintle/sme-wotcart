@@ -1,0 +1,107 @@
+.header {
+  background: $white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 90;
+  padding: 0;
+  border-bottom: 1px solid $lite-2;
+
+  &.header-clean {
+    background: $white;
+    border-bottom: 1px solid $lite-2;
+
+  }
+
+  @media (max-width: 992px) {
+
+  }
+
+  .header-banner {
+    background-color: $dark;
+    color: #fff;
+    padding: 5px 0;
+
+    .header--banner-options {
+      padding: 6px;
+    }
+
+    .header--banner-promo {
+      display: flex;
+      align-items: center;
+      margin: 7px 0;
+
+      .promo {
+        margin-left: 10px;
+        font-size: 12px;
+        color:#fff;
+      }
+    }
+
+    .header-top-left {
+
+      .header-top-lable {
+        font-size: 11px;
+        color: #fff;
+        background-color: $smeGreen;
+        padding: 3px 8px;
+        border-radius: 12px;
+        margin: 0 30px 0 15px;
+      }
+
+      margin-top: 10px;
+
+      p {
+        color: #fff;
+        font-weight: 300;
+        font-size: 11px;
+      }
+
+      i {
+        font-size: 21px;
+        margin-left: 30px;
+        margin-top: -1px;
+
+        @media(max-width: 1030px) {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .header-top-right {
+      .header-top-icons {
+        .far-gift {
+          width: 24px;
+        }
+
+        @media(min-width: 1030px) {
+          .fav {
+            margin-left: 15px;
+          }
+          .person {
+            margin-left: 10px;
+          }
+        }
+        @media(max-width: 1030px) {
+          .fav {
+            margin-left: 10px;
+          }
+          .person {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .header-bottom {
+
+    .no-pad-1030 {
+      @media(max-width: 1030px) {
+        padding: 0;
+      }
+    }
+  }
+}

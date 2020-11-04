@@ -1,0 +1,95 @@
+.login-bg{
+  background-image: url("../images/ICO_Foresight_Room.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+
+  .site-login{
+    background: $gray;
+    border-radius: 4px;
+    min-width: 400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    .gutter{
+      padding: 30px;
+
+      h1{
+        margin: 0;
+
+        img{
+          max-height: 60px;
+        }
+      }
+
+      p{
+        text-align: center;
+        color: $navy;
+
+        a{
+
+          &:hover{
+
+          }
+        }
+
+        &.help-block-error{
+          color: $red;
+          margin: 4px 0 0;
+        }
+      }
+
+      form{
+        padding-top: 30px;
+
+
+        &.form-horizontal{
+
+
+          .form-group{
+
+            &.field-loginform-username{
+
+              input[type="text"]{
+
+                &:valid{
+                  //background: url("../images/checkec-symbol.svg");
+                  background-size: 20px;
+                  background-repeat: no-repeat;
+                  background-position: 20px 20px;
+                }
+              }
+
+            }
+
+            &.field-loginform-password{
+
+            }
+
+            &.field-loginform-rememberme{
+              color: $dark-blue;
+
+              input[type="checkbox"]{
+                color: $navy;
+                font-weight: normal;
+                margin-right: 10px;
+              }
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}

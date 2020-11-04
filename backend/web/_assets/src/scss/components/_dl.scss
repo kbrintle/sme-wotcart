@@ -1,0 +1,33 @@
+dl{
+
+    &.inline{
+
+        dt{
+            float: left;
+            margin: 0 0.5em 15px 0;
+            color: $darkGray;
+            font-family: $f-familyAlt;
+            font-size: $f-size-sm;
+        }
+
+        dd{
+            float: right;
+            margin: 0 0.5em 0 0;
+            color: $sidebarColor;
+            font-family: $f-family;
+            font-size: $f-size-sm;
+        }
+    }
+}
+
+dl.inline dd + dt, dl.inline dd + dd {
+    clear: left
+}
+
+dl.inline dd + dd {
+    float: none
+}
+
+dl.inline dt {
+    font-weight: bold
+}

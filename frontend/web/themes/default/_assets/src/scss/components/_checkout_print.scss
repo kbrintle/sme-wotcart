@@ -1,0 +1,56 @@
+@media print {
+
+  .print-logo{
+
+    img{
+      width: 20%;
+      margin: 0 auto;
+    }
+  }
+}
+
+
+
+  @media print {
+
+    header{
+      display:none;
+    }
+    footer{
+      display:none;
+    }
+    .confirm{
+
+      .confirm-order-details{
+
+        .confirm-order{
+          width: 23%;
+          padding: 0 1%;
+          float: left;
+        }
+      }
+
+      .cart-product-list{
+
+        .cart-product-image{
+          width: 10%;
+          float: left;
+          padding-right: 30px;
+        }
+
+        .cart-product-ttl{
+
+        }
+
+        .small{
+          display: block;
+        }
+      }
+
+      .cart-summary{
+        float: right;
+        width: 25%;
+
+      }
+    }
+  }

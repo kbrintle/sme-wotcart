@@ -1,0 +1,84 @@
+.ui-datepicker{
+
+  &.ui-widget-content{
+    border: 2px solid $white;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+  }
+
+  .ui-datepicker-header{
+    background: transparent;
+    border: none;
+
+    .ui-datepicker-prev{
+
+      .ui-icon{
+        background-image: url("../images/ic_chevron_left_black_24px.svg");
+        background-size: 24px 24px;
+        content:  "\f053";
+
+        &.ui-icon-circle-triangle-w{
+          background-position: center;
+        }
+      }
+
+      &.ui-state-hover{
+        background: none;
+        border: none;
+      }
+    }
+
+    .ui-datepicker-next{
+
+      .ui-icon{
+        background-image: url("../images/ic_chevron_right_black_24px.svg");
+        background-size: 24px 24px;
+        content:  "\f054";
+
+        &.ui-icon-circle-triangle-e{
+          background-position: center;
+        }
+      }
+
+      &.ui-state-hover{
+        background: none;
+        border: none;
+      }
+    }
+
+    .ui-datepicker-title{
+      color: $navy;
+
+    }
+  }
+
+  .ui-datepicker-calendar{
+
+    thead{
+
+      tr{
+
+        th{
+          color: $dark-blue;
+        }
+      }
+    }
+
+    tbody{
+
+      tr{
+
+        td{
+
+          .ui-state-default{
+            background: $white;
+            border: none;
+            font-weight: 300;
+            text-shadow: none;
+            color: $text-color;
+          }
+        }
+      }
+    }
+  }
+}

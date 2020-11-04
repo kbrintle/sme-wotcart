@@ -1,0 +1,184 @@
+.locations{
+
+  .locations--results{
+
+    h3{
+      margin: 0;
+    }
+  }
+
+  .locations--single{
+    background: $white;
+    margin-bottom: 30px;
+
+    .locations--store-img{
+
+    }
+
+    .locations--store-details{
+      padding: 30px;
+
+      .locations--store-title{
+        margin: 0;
+        padding-bottom:15px;
+        font-size: $f-size-ph;
+      }
+
+      .locations--store-address{
+        color: $darkGray;
+
+        span{
+          display: block;
+
+          .locations--store-address-line1{
+
+            &.locations--store-address-line2{
+
+            }
+          }
+
+          .locations--store-city{
+
+          }
+        }
+      }
+
+      .locations--store-phone{
+        color: $darkerBlue;
+        font-family: $f-family;
+        font-weight: $f-weight-bold;
+      }
+
+      .locations--store-hours{
+        margin-top: 15px;
+
+        @media (max-width: 768px) {
+          margin-bottom: 15px;
+        }
+
+        .locations--store-time{
+
+          table{
+
+            tbody{
+
+              tr{
+
+                td{
+                  color: $darkGray;
+
+                  &.locations--store-time-day{
+                    color: $darkerBlue;
+                    font-size: $f-size;
+                    font-family: $f-family;
+                    font-weight: $f-weight-med;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .locations--store-links{
+
+      }
+    }
+  }
+
+  &-singleview{
+
+    &-map{
+      height:300px;
+      width:100%;
+
+      @media (max-width: 768px) {
+        margin-bottom: 30px;
+      }
+    }
+
+    .locations--single{
+      background: $white;
+      margin-bottom: 30px;
+      border-radius: 4px;
+
+      .locations--store-img{
+
+      }
+
+      .locations--store-details{
+        padding: 30px;
+
+        .locations--store-title{
+          margin: 0;
+          padding-bottom:15px;
+          font-size: $f-size-ph;
+        }
+
+        .locations--store-address{
+          color: $darkGray;
+
+          i{
+            color: $primaryBlue;
+          }
+
+          span{
+            display: block;
+
+            .locations--store-address-line1{
+
+              &.locations--store-address-line2{
+
+              }
+            }
+
+            .locations--store-city{
+
+            }
+          }
+        }
+
+        .locations--store-phone{
+          color: $darkerBlue;
+          font-family: $f-family;
+          font-weight: $f-weight-bold;
+
+          i{
+            color: $primaryBlue;
+          }
+        }
+
+        .locations--store-hours{
+          margin-top: 15px;
+
+          .locations--store-time{
+
+            table{
+
+              tbody{
+
+                tr{
+
+                  td{
+                    color: $darkGray;
+
+                    &.locations--store-time-day{
+                      color: $darkerBlue;
+                      font-size: $f-size;
+                      font-family: $f-family;
+                      font-weight: $f-weight-med;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .locations--store-links{
+
+        }
+      }
+    }
+  }
+}

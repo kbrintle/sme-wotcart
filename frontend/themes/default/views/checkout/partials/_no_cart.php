@@ -1,0 +1,1 @@
+<h2>You have no products in your cart!</h2>

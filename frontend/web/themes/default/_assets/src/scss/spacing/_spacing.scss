@@ -1,0 +1,18 @@
+/**
+ -----------------
+ WOT Cart Design System Spacing
+ -----------------
+**/
+
+// Create spacing sizes
+
+$cap: 5px;     // Cap-height of the $b0 font size
+
+$spacer-none: 0;                   // 0
+$spacer-5: $cap;                   // 5px
+$spacer-10: round($cap * 2);       // 10px
+$spacer-15: round($cap * 3);       // 15px
+$spacer-20: round($cap * 4);       // 20px
+$spacer-30: round($cap * 6);       // 30px
+$spacer-45: round($cap * 9);       // 45px
+$spacer-60: round($cap * 12);      // 60px

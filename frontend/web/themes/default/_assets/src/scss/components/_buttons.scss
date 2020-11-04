@@ -1,0 +1,163 @@
+.btn {
+  border-radius: 0;
+  color: $white;
+  font-size: 12px;
+  line-height: 1;
+  padding: 12px 15px;
+  text-transform: uppercase;
+
+  &:active, &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &.btn-default {
+    background: $dark;
+    border: 1px solid $dark;
+
+    &:hover, &:focus, &:active {
+      background: $dark;
+      border: 1px solid $dark;
+    }
+  }
+
+  &.btn-icon-cart{
+    border: none;
+    color: $dark-2;
+    height: 18px;
+    padding: 0;
+
+
+    i{
+      font-size: 18px;
+    }
+
+    &:hover{
+      color: $dark;
+    }
+  }
+
+  &.btn-icon-fav{
+    border: none;
+    color: $dark-2;
+    height: 18px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    i{
+      font-size: 18px;
+    }
+
+    &:hover{
+      color: $red;
+    }
+  }
+
+  &.btn-link {
+    border: none;
+    color: $base-color;
+    padding: 0;
+  }
+
+  &.btn-primary {
+    background: $base-color;
+    border: 1px solid $base-color;
+
+    &:hover, &:focus, &:active {
+      background: $base-color;
+      border: 1px solid $base-color;
+    }
+  }
+
+  &.btn-secondary {
+    background: transparent;
+    border: 1px solid $white;
+
+    &:hover, &:focus, &:active {
+      background: $white;
+      border: 1px solid $white;
+      color: $dark;
+    }
+  }
+
+  &.btn-alt {
+    background: transparent;
+    border: 1px solid $dark-2;
+    color: $dark;
+
+    &:hover, &:focus, &:active {
+      background: $white;
+      border: 1px solid $dark;
+      color: $dark;
+    }
+  }
+
+  // Button Sizes
+
+  &.btn-xl {
+    font-size: $f-size;
+    padding: 15px 30px;
+  }
+
+  &.btn-responsive {
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+  }
+
+  &.btn-sort {
+
+    &:focus, :active {
+      outline: 5px auto $smeGreen;
+      background: transparent;
+    }
+    color: $darkGray;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid $borderGray;
+    font-family: $f-familyAlt;
+    font-size: $f-size-md;
+    letter-spacing: 1px;
+    width: 75%;
+    padding: 5px 0;
+
+    .sort-by-text {
+      float: left;
+      padding: 5px 0 0 10px;
+      font-weight: 400;
+      font-size: 13px;
+    }
+    .caret {
+      float: right;
+      margin: 10px;
+    }
+
+    &:hover {
+      color: $darkGray;
+    }
+  }
+}
+
+button {
+
+  &.btn-switch {
+    background: none;
+    border: none;
+    color: $primaryBlue;
+    padding: 0;
+
+    &:hover {
+      color: $darkBlue;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+

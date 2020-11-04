@@ -1,0 +1,133 @@
+.carousel{
+
+  .carousel-control{
+    background: $dark;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+    opacity: 1;
+    top: 40%;
+
+    &.left{
+
+    }
+
+    &.right{
+
+    }
+
+    i{
+      color: $white;
+      padding: 12px;
+    }
+  }
+
+  &.carousel-products{
+
+    .carousel-indicators{
+
+      li{
+        background: $gray;
+        border: none;
+
+        &.active{
+          width: 12px;
+          height: 12px;
+          margin: 0;
+          background-color: $primaryBlue;
+        }
+      }
+    }
+  }
+
+
+  &.carousel-home-promos{
+    padding-top: 0;
+
+    .carousel-indicators{
+      top: 10px;
+      bottom: 0px;
+
+      li{
+        background: $gray;
+        border: none;
+
+        &.active{
+          width: 12px;
+          height: 12px;
+          margin: 0;
+          background-color: $primaryBlue;
+        }
+      }
+    }
+  }
+
+  .carousel-indicators{
+    padding: 30px 0;
+    position: relative;
+    bottom: 0;
+
+    li{
+      width: 44px;
+      height: 4px;
+      background: $lite-2;
+      border: none;
+      border-radius: 0;
+
+      &.active{
+        background: $base-color;
+      }
+    }
+  }
+
+  .carousel-inner{
+
+    .item{
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 450px;
+
+      @media (max-width: 768px) {
+        min-height: 140px;
+      }
+
+      .carousel-caption{
+        padding: 30px;
+        text-align: left;
+        text-shadow: none;
+        background:rgba(51,66,58,0.75);
+        width: 30%;
+        right: 15%;
+        bottom: 15%;
+        left: 15%;
+        @media (max-width: 768px) {
+          display:none;
+        }
+
+        .carousel--caption-inner{
+
+          p{
+            color: $white;
+          }
+        }
+
+        .am-promos{
+
+          h2{
+            color: $white;
+            text-align: left;
+            text-shadow: none;
+          }
+        }
+      }
+
+      &.active{
+
+      }
+    }
+  }
+}

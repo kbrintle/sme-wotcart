@@ -1,0 +1,52 @@
+.events{
+  margin: $spacer-30 0 0;
+  list-style: none;
+  padding: 0;
+
+  .events-event{
+    background: $white;
+    border-left: 6px solid $base-color;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.16);
+    display: flex;
+    margin-bottom: $spacer-15;
+    padding: $spacer-15;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    .events-event--icon{
+      align-items: center;
+      background: $base-color;
+      border-radius: 50%;
+      display: flex;
+      height: 48px;
+      justify-content: center;
+      margin-right: $spacer-15;
+      width: 48px;
+
+      i{
+        color: $white;
+        font-size: 30px;
+      }
+    }
+
+    .events-event--content{
+      flex-grow: 2;
+
+      .title{
+        margin-bottom: $spacer-15;
+      }
+
+      .events-event--meta{
+        display: flex;
+
+        .date{
+          color: $dark-2;
+          margin-right: auto;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

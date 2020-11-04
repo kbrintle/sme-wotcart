@@ -1,0 +1,111 @@
+.profile-head{
+  text-align: center;
+  //padding-top: 50px;
+
+  .profile-head-img{
+    padding-bottom: 30px;
+  }
+
+  .ammatUser{
+    width:48px;
+
+    &.ammatUser-sm{
+      width: 24px;
+    }
+
+    &.ammatUser-lg{
+      width: 75px;
+    }
+
+  }
+
+  span{
+    display: block;
+
+    &.profile-head-name{
+      font-size: 21px;
+      font-weight: 700;
+      color: $main-hover-color;
+    }
+
+    &.profile-head-role{
+      font-size: 14px;
+      color: $dark-blue;
+    }
+
+    &.profile-head-email{
+      padding-top: 15px;
+      color: $dark-blue;
+
+      a{
+        color: $navy;
+
+        i{
+          padding-right: 10px;
+        }
+
+        &:hover{
+          color: $blue;
+        }
+      }
+
+    }
+  }
+
+  &.user-profile-head{
+    text-align: center;
+    padding-top: 50px;
+
+    .profile-head-img{
+      padding-bottom: 30px;
+    }
+
+    .user-profile-meta{
+      //padding-left: 30px;
+    }
+  }
+}
+
+.ammatUser{
+  width:48px;
+
+  &.ammatUser-sm{
+    width: 24px;
+  }
+
+  &.ammatUser-md{
+    width: 36px;
+  }
+
+  &.ammatUser-lg{
+    width: 75px;
+  }
+}
+
+.avatarGrey{
+  background: $avatarGrey;
+}
+
+.avatarBlue{
+  background: $avatarBlue;
+}
+
+.avatarRed{
+  background: $avatarRed;
+}
+
+.avatarYellow{
+  background: $avatarYellow;
+}
+
+.avatarLazur{
+  background: $avatarLazur;
+}
+
+.avatarGreen{
+  background: $avatarGreen;
+}
+
+.avatarPurple{
+  background: $avatarPurple;
+}

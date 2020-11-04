@@ -1,0 +1,65 @@
+// Variables, Mixins
+@import "variables";
+@import "mixins";
+
+// INSPINIA Theme Elements
+@import "typography";
+@import "navigation";
+@import "top_navigation";
+@import "buttons";
+@import "badgets_labels";
+@import "elements";
+@import "sidebar";
+@import "base";
+@import "pages";
+@import "chat";
+@import "metismenu";
+@import "spinners";
+@import "panels";
+@import "tabs";
+@import "dropdowns";
+@import "wysiwyg";
+@import "progressbar";
+@import "_error.scss";
+@import "_calendar.scss";
+@import "_course.scss";
+@import "_modal.scss";
+@import "_profile.scss";
+@import "_upload.scss";
+@import "_tooltips.scss";
+@import "_search.scss";
+@import "_datepicker.scss";
+@import "_select.scss";
+@import "_tags.scss";
+@import "_utility.scss";
+@import "_widgets.scss";
+@import "_pills.scss";
+@import "_documents.scss";
+@import "_user.scss";
+
+// View specific styles
+@import "messages";
+
+// Landing page styles
+@import "landing";
+
+// RTL Support
+@import "rtl";
+
+// For demo only - config box style
+@import "theme-config";
+
+// INSPINIA Skins
+@import "skins";
+@import "md-skin";
+
+// Media query style
+@import "media";
+
+// Custom style
+// Your custom style to override base style
+@import "custom";
+
+
+// Login page
+@import "login";

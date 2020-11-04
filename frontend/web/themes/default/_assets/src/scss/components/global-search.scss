@@ -1,0 +1,62 @@
+.search_group{
+  margin:0 0 60px;
+  padding:0 0 20px;
+  border-bottom:1px solid #004270;
+
+  &:last-child{
+    border:none;
+  }
+}
+
+.search_panel{
+  margin:0 0 20px;
+
+  .panel{
+    padding:20px;
+  }
+
+  &-product{
+    .sm-img{
+      width: 200px;
+      margin-top: 40px;
+    }
+  }
+
+  &-store{
+
+  }
+
+  &-store_location{
+
+  }
+
+  &-blog_post{
+    .blg-post-img{
+
+    }
+
+    .blg-post-content{
+      padding:20px 0;
+
+      .blg-post-title{
+        font-family: "Montserrat", sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        color: #004270;
+        padding: 4px 0 10px;
+        margin: 4px 0 0;
+      }
+
+      .blg-post-meta{
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #77909C;
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+}

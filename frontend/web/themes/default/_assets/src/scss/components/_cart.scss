@@ -1,0 +1,137 @@
+.cart{
+
+  dl{
+    display: block;
+    margin-bottom: 14px;
+    dt{
+      float:left;
+      padding-right: 5px;
+    }
+    dd{
+      float:left;
+    }
+  }
+  .cart-overview{
+    //border-bottom: 1px solid $gray;
+    //padding: 15px 0 30px;
+    color: $darkGray;
+
+    .cart-order-id{
+      font-family: $f-family;
+      font-weight: $f-weight-med;
+      font-size: $f-size-lg;
+      color: $darkGray;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    //.cart-order-total-label{
+    //  font-family: $f-familyAlt;
+    //  font-size: $f-size-sm;
+    //  padding-right: 70px;
+    //}
+    //
+    //.cart-order-currency{
+    //  text-transform: uppercase;
+    //  font-family: $f-familyAlt;
+    //  font-size: $f-size-xs;
+    //  padding-right: 10px;
+    //}
+    //
+    .cart-order-total{
+      font-family: $f-familyAlt;
+      font-weight: $f-weight-med;
+      font-size: $f-size-lg;
+      color: $green;
+      padding-right: 30px;
+    }
+  }
+
+  .cart-product-list{
+    border-bottom: 1px solid $gray;
+
+    .cart-sub, .cart-add, .cart-remove {
+      cursor: pointer;
+    }
+
+    .cart-sub, .cart-add {
+
+      i{
+        font-size: $f-size-lg;
+      }
+    }
+
+    .cart-count{
+      font-size: $f-size-sm;
+    }
+  }
+
+  .cart-summary{
+    color: $darkGray;
+
+    .table-cart{
+
+      tr{
+        border-bottom: 1px solid $gray;
+
+        &.cart-summary-total{
+          border-bottom: none;
+
+          .cart-order-currency{
+            text-transform: uppercase;
+            font-family: $f-familyAlt;
+            font-size: $f-size-xs;
+            padding-right: 10px;
+          }
+
+          .cart-order-total{
+            font-family: $f-familyAlt;
+            font-weight: $f-weight-med;
+            font-size: $f-size-lg;
+            color: $green;
+          }
+        }
+
+        td{
+          padding: 14px 0px;
+
+          &.cart-summary-label{
+            font-family: $f-familyAlt;
+            font-weight: $f-weight-bold;
+            font-size: $f-size-sm;
+          }
+
+          &.cart-summary-value{
+            font-family: $f-familyAlt;
+            font-size: $f-size-sm;
+            text-align: right;
+          }
+
+          &.cart-summary-code{
+            text-align: right;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  .cart-item-price{
+    margin: 0;
+  }
+}
+
+
+.fixed_cart{
+  position:relative;
+
+  .fixed_wrap{
+    position:fixed;
+    width:inherit;
+  }
+
+  .fixed_width_fix{
+    width:inherit;
+  }
+
+}

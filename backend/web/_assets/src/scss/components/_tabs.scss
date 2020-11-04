@@ -1,0 +1,36 @@
+.nav-tabs{
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-top: 15px;
+
+  li{
+
+    a{
+      border: none;
+      padding: 0 15px 15px;
+
+      &:hover, &:focus, &:active {
+        background: transparent;
+        border: none;
+        color: $primaryBlue;
+        padding: 0 15px 15px;
+      }
+    }
+
+    &.active{
+      border: none;
+      border-bottom: 4px solid $primaryBlue;
+
+      a{
+        color: $darkerGray;
+        border: none;
+        padding-left: 15px;
+
+        &:hover, &:focus, &:active{
+          border: none;
+          color: $darkerGray;
+        }
+      }
+    }
+  }
+}

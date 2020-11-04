@@ -1,0 +1,41 @@
+.pagination-nav{
+  text-align: center;
+
+  .pagination{
+
+    li{
+
+      font-size: 13px;
+
+      &.active{
+
+        a{
+          background-color: white;
+          //border-radius: 25px;
+          color: $smeDarkGreen;
+
+          &:hover {
+            background-color: white;
+            //border-radius: 25px;
+            color: $smeGreen;
+          }
+        }
+      }
+
+      a{
+        border: 0;
+        color: $grayHover;
+
+        &:hover{
+          background: transparent;
+          color: $primaryBlue;
+        }
+
+        i{
+          color: $smeDarkGreen;
+          margin: -2px 0;
+        }
+      }
+    }
+  }
+}

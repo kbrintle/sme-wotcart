@@ -1,0 +1,29 @@
+.catalog-brand-index{
+
+  .available-brands{
+    padding: 0 15px;
+
+    .brand-img{
+      max-height: 48px;
+      max-width: 48px;
+      margin-right: 30px;
+
+      img{
+        min-height: 48px;
+        min-width: 48px;
+      }
+    }
+
+    .brand-title{
+      color: $darkerGray;
+      font-family: $f-family;
+      font-weight: 300;
+      font-size: $f-size-lg;
+      margin: 0;
+    }
+
+    .brand-action{
+      padding: 7px 0;
+    }
+  }
+}

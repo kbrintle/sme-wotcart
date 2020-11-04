@@ -1,0 +1,88 @@
+.in-pdf{
+
+  .in-pdf-hd{
+    padding: 38px 38px 0;
+
+    span{
+      font-size: $f-size-xs;
+      display: block;
+    }
+
+    h4{
+      font-size: $f-size-sm;
+      font-weight: $f-weight-bold;
+    }
+
+    .inv{
+      text-transform: uppercase;
+      font-weight: $f-weight-bold;
+    }
+
+    .b-add{
+      margin-left: 15px;
+      padding: 4px 0;
+    }
+  }
+
+  .in-pdf-bdy{
+    padding: 0 38px ;
+
+    .in-pdf-items{
+
+      table{
+
+        thead{
+
+          tr{
+            border-bottom: 1px solid $lite-3;
+          }
+        }
+
+        tbody{
+          border-bottom: 1px solid $lite-3;
+
+          tr{
+            border: none;
+
+            &.item-row{
+
+              span{
+                display: block;
+
+
+              }
+            }
+          }
+        }
+        tfoot{
+
+          tr{
+            border: none;
+
+            &.bln{
+              font-size: 17px;
+              font-weight: $f-weight-bold;
+            }
+
+            td{
+              border: none;
+              padding: 15px;
+
+              &.bdr-btm{
+                border-bottom: 1px solid $lite-3;
+              }
+
+              span{
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .in-pdf-sig{
+      padding: 75px 0 100px;
+    }
+  }
+}

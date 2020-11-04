@@ -1,0 +1,42 @@
+
+.sortable-tree-box ul, .sortable-tree-box li,ul#sortableListsBase ul,ul#sortableListsBase li {
+    list-style-type:none;
+    color:#fff;
+    border:1px solid #3c8dbc;
+}
+
+.sortable-tree-box ul, #sTree2, #sTreePlus { padding:0; background-color:#3c8dbc; }
+
+.sortable-tree-box li,#sTree2 li, #sTreePlus li {
+    padding-left:40px;
+    margin:5px; border:1px solid #fff;
+    background-color:#fff;
+}
+
+ul#sortableListsBase li {
+    padding-left:40px;
+    margin:5px; border:1px solid #fff;
+    background-color:#fff;
+}
+
+.sortable-tree-box li div ,ul#sortableListsBase li div{
+    padding:7px;
+    background-color:#3c8dbc;
+}
+
+.sortable-tree-box li, .sortable-tree-box ul, .sortable-tree-box div {  }
+ul#sortableListsBase li, ul#sortableListsBase ul, ul#sortableListsBase div {}
+.sortable-tree-box, #sTree2, #sTreePlus { margin:10px auto; }
+
+.sortableListsOpener{
+    color:#3c8dbc;
+}
+ul#sortableListsBase .sortableListsCurrent ul{
+    background-color:#3c8dbc;
+    padding-left: 0;
+}
+ul#sortableListsBase .sortableListsCurrent li{
+    padding-left: 40px;
+    margin: 5px;
+    border: 1px solid #fff;
+}

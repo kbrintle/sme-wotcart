@@ -1,0 +1,21 @@
+.breadcrumb{
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: $spacer-5;
+
+  li{
+
+    a{
+      color: $dark-1;
+
+      &:hover{
+        color: $base-color;
+      }
+    }
+
+    &.active{
+      color: $dark;
+    }
+  }
+}

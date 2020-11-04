@@ -1,0 +1,283 @@
+.pad {
+  padding: 135px 0;
+
+  @media (max-width: 768px) {
+    padding: 60px 0;
+  }
+}
+
+.pad-sm {
+  padding: 60px 0;
+
+  @media (max-width: 768px) {
+    padding: 30px 0;
+  }
+}
+
+.pad-5 {
+  padding: 5px;
+}
+
+.pad-xs {
+  padding: 30px 0;
+}
+
+.pad-top-sm {
+  padding-top: 15px;
+}
+
+.pad-top {
+  padding-top: 30px;
+}
+
+.pad-top-lg {
+  padding-top: 60px;
+}
+
+.pad-btm-sm {
+  padding-bottom: 15px;
+}
+
+.pad-btm {
+  padding-bottom: 30px;
+}
+
+.pad-btm-lg {
+  padding-top: 60px;
+}
+
+.pad-lg {
+  padding: 60px 0;
+}
+
+.no-pad {
+  padding: 0;
+  margin: 0;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.img-responsive-mobile {
+
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.content-pad {
+  margin-top: 120px;
+
+  &.content--pad-clean {
+    margin-top: 76px;
+  }
+
+  @media (max-width: 992px) {
+    margin-top: 104px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 104px;
+  }
+}
+
+.border-right {
+  border-right: 1px solid $gray;
+}
+
+.border-left {
+  border-left: 1px solid $gray;
+}
+
+.text-center-mobile {
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+//   BUFFER
+.left-buffer {
+  margin-left: 30px;
+}
+
+@media (min-width: 768px) {
+  .left-buffer-big {
+    margin-left: 130px;
+  }
+}
+
+.sm-buffer {
+  margin: 15px 0px;
+}
+
+.top-buffer {
+  padding-top: 20px;
+  &-small {
+    padding-top: 10px;
+  }
+  &-big {
+    padding-top: 50px;
+  }
+}
+
+.bottom-buffer {
+  padding-bottom: 20px;
+  &-small {
+    padding-bottom: 10px;
+  }
+}
+
+.container-buffer {
+  padding: 20px 0px;
+}
+
+.top-margin {
+  margin-top: 20px;
+
+  &-md {
+    margin-top: 35px;
+  }
+  &-small {
+    margin-top: 10px;
+  }
+  &-large {
+    margin-top: 70px;
+  }
+}
+
+.no-left-padding {
+  padding-left: 0px;
+}
+
+.margin-left {
+  margin-left: 12px;
+  &-big {
+    margin-left: 44%;
+  }
+}
+
+.buffer-around {
+  margin: 10px;
+}
+
+.buffer-padding {
+  padding: 20px;
+}
+
+.header-margin {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.right-small-margin {
+  margin-right: 15px;
+}
+
+.left-small-margin {
+  margin-left: 15px;
+}
+
+.padding-sides {
+  padding: 0px 45px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+//   TEXT
+.bold {
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.center {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.less-space {
+  letter-spacing: 1px;
+}
+
+.no-space {
+  letter-spacing: 0px;
+}
+
+.text-white{
+  color: $white;
+}
+
+//    DISPLAY
+.inline {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+//  LINE BREAKS
+
+.bottom-line {
+  border-bottom: 2px solid $gray;
+}
+
+// Z INDEX
+.z-index-1 {
+  z-index: 1;
+}
+
+// ROWS
+.row {
+  &.wide {
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+}
+
+.gutter {
+  padding: $gutter-padding;
+  &-horizontal {
+    padding: 0 $gutter-padding;
+  }
+  &-vertical {
+    padding: $gutter-padding 0;
+  }
+}
+
+/**
+ * This works with ng-cloak and class="ng-cloak" to hide all Angular flashes until Angular is fully loaded
+ *  once Angular is fully loaded then the cloak is removed - so template tags are not visible
+ */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.bd-xy{
+  border-top: 1px solid $lite-2;
+  border-bottom: 1px solid $lite-2;
+}
+
+.bd-b{
+  border-bottom: 1px solid $lite-2;
+}
+
+.m-b-xs{
+  margin-bottom: 4px;
+}

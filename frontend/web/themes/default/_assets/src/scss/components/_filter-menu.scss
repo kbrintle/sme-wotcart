@@ -1,0 +1,135 @@
+.filter-menu{
+
+  .filter-menu-list{
+    border-radius: 0;
+    box-shadow: none;
+
+    .filter-menu-list-item{
+      background: transparent;
+      border: none;
+      color: $darkGray;
+      padding: 10px 5px;
+      font-family: $f-familyAlt;
+      font-size: $f-size-lg;
+      letter-spacing: 1px;
+
+      &.active{
+        background: transparent;
+        text-shadow: none;
+        color: $darkerBlue;
+
+        &:hover, &:focus{
+          background: transparent;
+          color: $midBlue;
+          outline: none;
+        }
+
+        .badge{
+          color: $darkerBlue;
+          background: transparent;
+          vertical-align: middle;
+        }
+      }
+
+      &.collapsed{
+
+        .badge{
+
+          i{
+            transform:rotate(180deg);
+          }
+        }
+      }
+    }
+
+    .collapse{
+
+      .filter-menu-list-inner{
+        border-radius: 0;
+        box-shadow: none;
+
+        .filter-menu-list-inner-item{
+          background: transparent;
+          border: none;
+          text-shadow: none;
+          color: $darkGray;
+          padding: 8px;
+
+          input{
+            color: $gray;
+          }
+
+          i{
+            font-size: $f-size-lg;
+            color: $gray;
+            padding-right: 15px;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+
+    .collapsing{
+
+      .filter-menu-list-inner{
+        border-radius: 0;
+        box-shadow: none;
+
+        .filter-menu-list-inner-item{
+          background: transparent;
+          border: none;
+          text-shadow: none;
+          color: $darkGray;
+          padding: 8px;
+
+          input{
+            color: $gray;
+          }
+
+          i{
+            font-size: $f-size-lg;
+            color: $gray;
+            padding-right: 15px;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.sort_options{
+  @include breakpoint(extra-small){
+    padding:0;
+  }
+
+  button{
+    text-transform: capitalize;
+    vertical-align: middle;
+  }
+  i{
+    transition:0.2s all;
+    vertical-align: middle;
+    cursor:pointer;
+    color:$gray;
+    transform:scale(0.9);
+    margin:0 0 0 10px;
+
+    &:hover{
+      color:$darkGray;
+      transform:scale(1);
+    }
+  }
+}
+
+
+// view filters //
+.view-items{
+  font-family: $f-familyAlt;
+  color: $gray;
+  font-size: $f-size-md;
+  letter-spacing: 1px;
+  padding-right: 15px;
+  margin-top: 4px;
+}

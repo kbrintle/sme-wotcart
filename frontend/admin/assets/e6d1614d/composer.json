@@ -1,0 +1,31 @@
+{
+    "name": "xiongchuan/yii2-sortable-tree",
+    "description": "The Tree widget based on Jquery-sortable-list,drag and drop to sort the tree.",
+    "type": "yii2-extension",
+    "keywords": [
+      "yii2",
+      "extension",
+      "tree",
+      "sortable",
+      "drap and drop"
+    ],
+    "authors": [
+      {
+        "name": "chuan xiong",
+        "email": "xiongchuan86@gmail.com"
+      }
+    ],
+    "license": "MIT",
+    "require": {
+      "bower-asset/jquery-sortable-lists": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "xiongchuan\\tree\\": ""
+      }
+    },
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
+    },
+    "minimum-stability": "dev"
+}

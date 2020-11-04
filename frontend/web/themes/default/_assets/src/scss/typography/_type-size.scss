@@ -1,0 +1,5 @@
+html, body {
+  font-size: 10px;     // Defines ex height for system
+  @include font--primary-regular;
+}
+

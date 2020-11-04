@@ -1,0 +1,52 @@
+.newsletter-container {
+
+  margin: 43px 0;
+
+  h2 {
+    margin-bottom: 47px;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  #mc_embed_signup {
+
+    #mc-embedded-subscribe-form {
+      padding: 0;
+
+      #mc_embed_signup_scroll {
+
+        //   width: 370px;
+
+        input {
+          box-shadow: none;
+
+          &:focus {
+            box-shadow: none;
+          }
+
+          &.email {
+            padding-left: 15px;
+            width: 75%;
+            border-radius: 4px 0px 0 4px;
+            height: 34px;
+            font-size: $f-size-sm;
+          }
+
+          &.submit {
+            padding: 7px;
+            border: none;
+            color: white;
+            width: 25%;
+            border-radius: 0px 4px 4px 0;
+            background: $smeGreen;
+            font-weight: 300;
+            font-size: 12px;
+            height: 34px;
+            text-transform: none;
+          }
+        }
+      }
+    }
+  }
+}

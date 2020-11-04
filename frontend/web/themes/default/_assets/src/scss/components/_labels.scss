@@ -1,0 +1,47 @@
+.label{
+  font-family: $f-family;
+  font-weight: $f-weight-med;
+  font-size: 10px;
+  padding: 4px 6px;
+
+  &.label-product{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+
+  &.label-banner{
+    background: $base-color;
+    border-radius: 25px;
+  }
+
+  &.label-new{
+    background: $blue;
+    display: inline-block;
+    margin-bottom: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &.label-sale{
+    background: $red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &.label-new-sale{
+    background: $blue;
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+
+  &.label-trending{
+    background: $purple;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

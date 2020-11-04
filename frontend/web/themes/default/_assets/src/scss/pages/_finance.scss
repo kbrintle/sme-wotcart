@@ -1,0 +1,60 @@
+.finance-index{
+
+  .finance-body{
+    padding: 30px;
+
+    h1{
+      color: $darkerBlue;
+      font-family: $f-familyAlt;
+      font-size: 48px;
+      font-weight: $f-weight-med;
+      margin: 0;
+      padding-bottom: 30px;
+
+      @media (max-width: 768px) {
+        font-size: $f-size-xl;
+      }
+    }
+
+    h2{
+      color: $darkerBlue;
+
+
+      font-family: $f-familyAlt;
+      font-size: $f-size-ph;
+      font-weight: $f-weight-med;
+      margin: 0;
+      padding-bottom: 30px;
+    }
+
+    p{
+      text-align: left;
+      padding-top: 60px;
+      font-size: 11px;
+      margin: 0;
+      line-height: 16px;
+      letter-spacing: 1px;
+      color: $darkerGray;
+    }
+
+    ul{
+      padding: 0 0 30px;
+      list-style: none;
+
+      li{
+        color: $darkerGray;
+        font-family: $f-family;
+        font-size: $f-size-lg;
+
+        @media (max-width: 768px) {
+          font-size: $f-size-md;
+        }
+
+        b{
+          color: $primaryBlue;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}

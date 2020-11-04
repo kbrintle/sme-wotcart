@@ -1,0 +1,267 @@
+.btn{
+  font-family: $f-family;
+  font-weight: $f-weight-med;
+  font-size: $f-size-md;
+  color: $darkGray;
+  background: $gray;
+  border: 1px solid $gray;
+  border-radius: $btn-border-radius;
+  padding: 6px 30px;
+
+  @media (max-width: 768px) {
+    font-size: $f-size;
+    padding: 11px 30px;
+  }
+
+  &:hover{
+    background: $grayHover;
+    border: 1px solid $grayHover;
+    color: $darkGray;
+  }
+
+  &:focus{
+    outline: none;
+  }
+
+  &:active, &.active{
+    outline: none;
+    box-shadow: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  &.btn-space {
+    margin-right: 5px;
+  }
+
+  &.btn-primary{
+    color: $white;
+    background: $primaryBlue;
+    border: 1px solid $primaryBlue;
+    box-shadow: none;
+    text-shadow: none;
+
+    &:hover, &:focus, &:active{
+      background: $darkBlue;
+      border: 1px solid $darkBlue;
+    }
+
+    &.disabled{
+      color: $gray;
+      background: $disabled;
+      border: 1px solid $disabled;
+      opacity: 1;
+    }
+  }
+
+  &.btn-secondary{
+    color: $primaryBlue;
+    background: transparent;
+    border: 1px solid $primaryBlue;
+    box-shadow: none;
+    text-shadow: none;
+
+    &:hover, &:focus, &:active{
+      border: 1px solid $darkBlue;
+      color: $darkBlue;
+    }
+
+    &.disabled{
+      color: $gray;
+      background: $disabled;
+      border: 1px solid $disabled;
+      opacity: 1;
+    }
+  }
+
+  &.btn-default{
+    box-shadow: none;
+    text-shadow: none;
+
+    i{
+      font-size: $f-size-lg;
+      vertical-align: middle;
+      padding-right: 5px;
+      margin-bottom: 2px;
+    }
+
+    &:hover{
+      color: $darkGray;
+      background: $grayHover;
+      box-shadow: none;
+      border: 1px solid $grayHover;
+    }
+
+    &:focus, &:active{
+      background: $grayHover;
+      color: $darkGray;
+      border: 1px solid $grayHover;
+    }
+
+    &.disabled{
+      color: $gray;
+      border: 1px solid $disabled;
+      opacity: 1;
+    }
+  }
+
+  &.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+
+    &:hover {
+      color: #fff;
+      background-color: #d9534f;
+      border-color: #d43f3a;
+    }
+  }
+
+  &.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+
+    &:hover {
+      color: #fff;
+      background-color: #5cb85c;
+      border-color: #4cae4c;
+    }
+  }
+
+  &.btn-profile-dropdown{
+    color: $gray;
+    background: transparent;
+    border: none;
+    padding: 0;
+
+  }
+
+  &.btn-navbar{
+    color: $darkGray;
+    background: transparent;
+    border: none;
+
+    &:hover{
+      color: $darkerGray;
+    }
+
+  }
+
+  &.btn-icon{
+    background: transparent;
+    color: $gray;
+    border: none;
+    padding: 6px;
+
+    &:hover{
+      color: $darkGray;
+    }
+  }
+
+  &.btn-text{
+    color: $primaryBlue;
+    background: transparent;
+    border: none;
+    padding: 0;
+
+    &:hover{
+      color: $darkBlue;
+    }
+
+    i{
+      vertical-align: middle;
+    }
+  }
+
+  &.btn-select{
+    color: $darkGray;
+    background: transparent;
+    border: 1px solid $gray;
+    font-family: $f-familyAlt;
+    font-size: $f-size-md;
+    letter-spacing: 1px;
+    padding: 6px 15px;
+
+    .caret{
+      color: $darkGray;
+      margin-left: 10px;
+    }
+
+    &:hover{
+      color: $darkGray;
+      border: 1px solid $darkGray;
+    }
+  }
+
+  &.btn-sort{
+    color: $gray;
+    background: transparent;
+    padding: 0;
+    border: none;
+    font-family: $f-familyAlt;
+    font-size: $f-size-md;
+    letter-spacing: 1px;
+
+    .caret{
+      color: $darkGray;
+      margin-left: 10px;
+    }
+
+    &:hover{
+      color: $darkGray;
+    }
+  }
+
+  &.btn-xl{
+    font-size: $f-size;
+    padding: 14px 30px;
+  }
+
+  &.btn-lg{
+    font-size: $f-size;
+    padding: 11px 30px;
+  }
+
+  &.btn-sm{
+    font-size: $f-size-sm;
+    padding: 3px 15px;
+  }
+
+  &.btn-responsive{
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+
+  &.btn-spacer{
+    margin-right: 15px;
+  }
+
+  &.btn-pad-btm{
+    margin-bottom: 15px;
+  }
+
+  &.btn-fullwidth{
+    width: 100%;
+  }
+
+  &.btn-login{
+    padding:11px 60px;
+  }
+
+  &.btn-transparent {
+    background: none;
+    border: none;
+    color: $gray;
+
+    &:hover{
+      color: $darkGray;
+    }
+  }
+}

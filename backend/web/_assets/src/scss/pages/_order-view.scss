@@ -1,0 +1,60 @@
+.order-view{
+
+  .panel-heading{
+    .order-details{
+      border-right: 1px solid $gray;
+    }
+
+    .order-billing-address{
+      border-right: 1px solid $gray;
+    }
+
+    .order-shipping-address{
+
+    }
+  }
+
+  .panel-body{
+
+    .order-details{
+      border-right: 1px solid $gray;
+      min-height: 225px;
+
+      h4{
+        font-size: $f-size-sm;
+      }
+
+      .order-details-payment{
+        font-size: $f-size-sm;
+      }
+
+      .order-shipping-handling{
+        font-size: $f-size-sm;
+      }
+    }
+
+    .order-billing-address{
+      border-right: 1px solid $gray;
+      min-height: 225px;
+      font-size: $f-size-sm;
+
+    }
+
+    .order-shipping-address{
+      min-height: 225px;
+      font-size: $f-size-sm;
+
+    }
+  }
+
+
+  table{
+    border: none;
+
+    thead{
+      border: none;
+    }
+  }
+
+
+}

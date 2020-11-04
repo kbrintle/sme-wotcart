@@ -1,0 +1,129 @@
+//  TEXT COLOR
+.color-{
+    &AmMatRed{
+      color:$smeDarkGreen;
+    }
+    &AmMatBlue{
+      color:$smeDarkGreen;
+    }
+    &white{
+      color:$white;
+    }
+    &primaryBlue{
+      color:$primaryBlue;
+    }
+    &darkBlue{
+      color:$darkBlue;
+    }
+    &midBlue{
+      color:$midBlue;
+    }
+    &darkerBlue{
+      color:$darkerBlue;
+    }
+    &green{
+      color:$green;
+    }
+    &yellow{
+      color:$yellow;
+    }
+    &red{
+      color:$red;
+    }
+    &lightGray{
+      color:$lightGray;
+    }
+    &gray{
+      color:$gray;
+    }
+    &disabled{
+      color:$disabled;
+    }
+    &darkGray{
+      color:$darkGray;
+    }
+    &darkerGray{
+      color:$darkerGray;
+    }
+}
+
+
+//BACKGROUND COLOR
+.bg-{
+  &AmMatRed{
+    background-color:$smeDarkGreen;
+  }
+  &AmMatBlue{
+    background-color:$smeDarkGreen;
+  }
+  &white{
+    background-color:$white;
+  }
+  &primaryBlue{
+    background-color:$primaryBlue;
+  }
+  &darkBlue{
+    background-color:$darkBlue;
+  }
+  &midBlue{
+    background-color:$midBlue;
+  }
+  &darkerBlue{
+    background-color:$darkerBlue;
+  }
+  &green{
+    background-color:$green;
+  }
+  &yellow{
+    background-color:$yellow;
+  }
+  &red{
+    background-color:$red;
+  }
+  &lightGray{
+    background-color:$lightGray;
+  }
+  &gray{
+    background-color:$gray;
+  }
+  &disabled{
+    background-color:$disabled;
+  }
+  &darkGray{
+    background-color:$darkGray;
+  }
+  &darkerGray{
+    background-color:$darkerGray;
+  }
+}
+
+.margin-left-auto {
+  margin-left: auto;
+}
+
+.margin-right-auto {
+  margin-right: auto;
+}
+
+.auto-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// FLOATS
+
+.float-left{
+  float:left;
+}
+.float-right{
+  float:right;
+}
+
+
+// OUTLINES
+
+.outline{
+  &-gray{
+    border: 1px solid $gray;
+  }
+}

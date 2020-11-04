@@ -1,0 +1,38 @@
+.account {
+  //min-height: 100vh;
+
+  .site-signup {
+
+  }
+
+  .site-login {
+
+  }
+
+  .favorite-list {
+    td {
+      text-align: center;
+    }
+
+    tbody {
+      tr {
+        td {
+          vertical-align: middle;
+          img {
+            height: 75px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.page--content-favorites {
+  input[type="file"] {
+    display: none;
+  }
+  .import-csv {
+    cursor: pointer;
+  }
+}

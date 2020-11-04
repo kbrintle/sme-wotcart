@@ -1,0 +1,87 @@
+.flex-flyer{
+  border: 1px solid $gray;
+  border-radius: 4px;
+  padding: 30px 30px 15px;
+
+  .slides{
+
+    img{
+      width: 60%;
+      margin: 0 20%;
+    }
+  }
+
+  .flex-control-nav{
+    padding-top: 15px;
+    position: unset;
+
+    a{
+      background: $gray;
+      box-shadow: none;
+
+      &.flex-active{
+        background: $primaryBlue;
+      }
+    }
+  }
+
+  .flex-direction-nav{
+
+    a{
+      color: $gray;
+      opacity: 1;
+
+      &.flex-prev{
+        left: 50px;
+      }
+
+      &.flex-next{
+        right: 50px;
+      }
+    }
+  }
+}
+
+.com-container{
+
+  .com-main{
+
+  }
+
+  .com-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    white-space: nowrap;
+
+    li{
+      display: inline-block;
+      //margin: 0 1%;
+      width: 27%;
+      height: 85px;
+
+      .com-thumb{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 20;
+        height: 85px;
+      }
+
+      .thumb{
+        width: 100%;
+        height: 85px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+      }
+    }
+  }
+}

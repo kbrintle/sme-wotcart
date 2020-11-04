@@ -1,0 +1,137 @@
+.ammat-widget{
+
+  .no-content{
+    text-align: center;
+    padding: 15%;
+
+    i{
+      font-size: 48px;
+      color: $gray;
+      margin-bottom: 5px;
+    }
+
+    p{
+      color: $dark-blue !important;
+      margin-bottom: 0;
+    }
+  }
+
+  .widget-scroll-box{
+    max-height: 200px;
+    min-height: 200px;
+    overflow-y: scroll;
+
+    .list-group{
+
+      .list-group-item{
+        padding: 15px;
+        border: none;
+        border-bottom: 1px solid $gray;
+        border-radius: 0;
+      }
+    }
+  }
+
+  &.recent-docs-widget{
+
+    .doc-item-container{
+
+      .doc-icon{
+
+        i{
+
+        }
+      }
+
+      .doc-meta{
+        padding-left: 15px;
+
+        span{
+          display: block;
+        }
+
+        .doc-filename{
+
+        }
+      }
+    }
+  }
+
+  &.recent-msg-widget{
+
+    .msg-item-container{
+
+      .msg-profile-img{
+
+      }
+
+      .msg-meta{
+        padding-left: 15px;
+
+        span{
+          display: block;
+        }
+
+        .msg-fullname{
+          color: $main-hover-color;
+          font-size: 13px;
+          font-weight: 700;
+
+        }
+
+        .msg-title{
+          font-size: 11px;
+          color: $dark-blue;
+          font-weight: 300;
+        }
+
+        .msg-datetime{
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          font-size: 11px;
+          font-weight: 700;
+          color: $navy;
+
+        }
+      }
+    }
+  }
+
+  &.recent-event-widget{
+
+    .event-item-container{
+
+      .event{
+        //background: #0061AA;
+        border-radius: 5px;
+
+        i{
+          color: $dark-blue;
+          padding: 4px;
+          font-size: 24px;
+        }
+      }
+
+      .event-meta{
+        padding-left: 15px;
+
+        span{
+          display: block;
+        }
+
+        .event-title{
+          color: $main-hover-color;
+          font-size: 13px;
+          font-weight: 700;
+        }
+
+        .event-date{
+          font-size: 11px;
+          color: $dark-blue;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "americas-mattress",
+  "private_key_id": "e5db86bcba04feb606c98c33d3a3c647f326f23d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDDrrV4ln3v6PCa\njgK4A7gW+k0poIaJQQvxvI9VDlL3GzPjBZBzdvA73odOk3+hImMmNYnMUCHz3gY7\nj49NWJ/4cJccnWLCwNbERkh5nC27OkDe1SyQ1Hk3SuuEzgiuEKHxs7JnsekD22r7\nU92jNTv6cJVFUARCwdRtUI75UFRrpI0PQwMAIQxXaqg7VUiPe7GF043rq6JLmMgc\n6UneXSQkOR0FJ+Rm16eQPbIZhRb8NEh9ZtX6+0CUJn8Zq9wc+BUfS//crx5AszgR\nppSpLAHQ/oNYFkyU76n07MvxURIYwmBP4ywERLsX86WJjZXXb7lhsy64GJPO9SyO\n+8l/nUk7AgMBAAECggEBAI1yo5C4T+50lj9SOdrkLVTGt7JIbBeY4lZqM72K7iPb\nEQWghws/xWWxdGMzMYW7gqoi9ymuHuzV5/Fz02VYk8IVONYhWjtnA5e7KjZl05TM\nBgpNU7qZK8nxKQ/Fkvan5Tf+6g4Ux1fXapyjwclw+JsOeIgyz/GlhLVEDyVekLeB\nZKe9bOBURURbhkASdvXIodm85/VZxtpqqhh0zsXwUr4qhNoD3ltGMv7aViGssO2w\nIW1Igvqy+HcHZPKTUsqDhuPFS4c43JISGd4OaoVeIXTLlcZ+G+3+0ev43onaBAQD\ndZfI0ZzTt/clrg/RylPzbTAVoWVLbewMTZigqpCxKVECgYEA9uAh1bvge5y5qxJ6\nCWWbGwbxfP43RYXXgyoVsG1ZvGcItyzrtRFfzuMPHrGmEXfz/Iyr+G91PYONwugf\nicKVPdTtLhvrSShUOaWsAOr8pLiscDxRjkjGnnbzqeAo8RCeS9Uh6n89QhnjUACK\n2avTpS8Kno/LAcpa17HS4Wy6qOMCgYEAyuozvyyATSe8/NvxprZScI7f5Tggmxxv\nvNK2KbjeZT7DTEacmYPG2aun/yIEALMdGEmU4TwYzwJEJGtNxPGxtuXVtv7Q6/yQ\nc2vXmY2kuhuS06ZY6qb/B6PkxLG0S/MYco4ZRdsCWzIo1vvDhkoLwAz3kj5mjTHy\nKdJxQNIIxckCgYEA7ZUZOrXJ/WwAipAHfc+Yi1QNRrrnujJqCsKPiPBTcaq+inni\nhKipyVJelK1mIl2MIrnGLholfAOEg9QbtdnbAlxNvRgFQKxdEfVMKL38URGgcYq6\n+fEzpADZ0dv1yrixfk0ojKHS9DAxwCYlegGQduFkmN/NAHYbIoTxaxvWLv0CgYEA\npGX1gNjkJh6g/liQQ1qKFkmbWpIL0L/MQ7aQAeOWw36DKkQ3UiUysV5i4NFFXu+/\nDdNnvMg87VLPtJX/TyXmruEtMnLm/5sDyY/BANaCdIosfi/S8GJWU3FUwoubIMGW\nuBEqpq8XDJ3p+qvFsQJC3Nlkp2bJHXIu2fV27mZ81wkCgYBNsgvw+hHNz/w1JXcb\nafiOEyQYDJv2QjXWilEakXnKCXZtRhRCbAsV/+Ab40A5beBozIwqPBTSl/gMV57v\nHdW9raghHNJpoX5MlmwomoF7yIqmqYt6xledzTV7WX7LMaYe5TJS6jfQlMMYN/W2\nWtopEpRZOFkG4WlFua65baTgBg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "america-s-mattress@americas-mattress.iam.gserviceaccount.com",
+  "client_id": "106915837434357111439",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/america-s-mattress%40americas-mattress.iam.gserviceaccount.com"
+}

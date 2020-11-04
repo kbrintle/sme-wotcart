@@ -1,0 +1,15 @@
+.label{
+  font-family: $f-family;
+  font-weight: 300;
+  font-size: $f-size-xs;
+  color: $darkGray;
+  padding: 4px;
+  //position: absolute;
+  //top: 15px;
+  //right: 30px;
+
+  &.label-attribute{
+    background: $disabled;
+  }
+
+}

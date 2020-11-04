@@ -1,0 +1,91 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": [
+        "yii2",
+        "framework",
+        "advanced",
+        "project template"
+    ],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "yiisoft/yii2-imagine": "*",
+        "stripe/stripe-php": "3.*",
+        "paypal/rest-api-sdk-php": "*",
+        "2amigos/yii2-tinymce-widget": "~1.1",
+        "2amigos/yii2-file-upload-widget": "~1.0",
+        "2amigos/yii2-multi-select-widget": "*",
+        "2amigos/yii2-date-time-picker-widget": "~1.0",
+        "skeeks/yii2-mobile-detect": "*",
+        "google/apiclient": "^2.0",
+        "bupy7/yii2-flexslider": "dev-master",
+        "taxjar/taxjar-php": "^1.5",
+        "amilna/yii2-elevatezoom": "dev-master",
+        "wbraganca/yii2-fancytree-widget": "*",
+        "miloschuman/yii2-highcharts-widget": "^7.0",
+        "kartik-v/yii2-widget-activeform": "^1.5",
+        "kartik-v/yii2-sortable": "@dev",
+        "kartik-v/yii2-mpdf": "*",
+        "kartik-v/yii2-krajee-base": "~2.0.5",
+        "kartik-v/yii2-dialog": "~1.0",
+        "kartik-v/yii2-grid": "^3.3.0",
+        "kartik-v/yii2-editable": "~1.7.8",
+        "kartik-v/yii2-date-range": "dev-master",
+        "kartik-v/yii2-widget-datetimepicker": "*",
+        "cakebake/yii2-bootstrap-select": "*",
+        "himiklab/yii2-recaptcha-widget": "*",
+        "sendgrid/sendgrid":"~7",
+        "educoder/pest": "~1.0.0",
+        "antkaz/yii2-vue": "~1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm-asset",
+                "bower-asset-library": "vendor/bower-asset"
+            }
+        },
+        "minimum-stability": "stable",
+        "require": {
+            "php": ">=5.6.0",
+            "yiisoft/yii2": "~2.0.6",
+            "2amigos/yii2-highcharts-widget": "~1.0",
+            "process-timeout": 1800
+        },
+        "extra": {
+        },
+        "scripts": {
+            "post-install-cmd": "php init --env=Development --overwrite=n"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.nav-pills{
+
+  li{
+
+    &.active{
+      border-left: none;
+
+      a{
+        color: $white;
+        background: $dark-blue;
+
+        &:hover, &:active, &:focus {
+          background: $dark-blue;
+          color: $white;
+        }
+      }
+    }
+
+    a{
+
+      &:hover, &:active, &:focus {
+        background: $gray;
+        color: $dark-blue;
+      }
+    }
+  }
+
+  li + li {
+    margin-left: 10px;
+  }
+
+  &.message-actions {
+    li + li {
+      margin-left: 0px;
+    }
+  }
+}
+
+
